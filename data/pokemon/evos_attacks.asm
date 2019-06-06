@@ -889,11 +889,7 @@ DiglettEvosAttacks:
 	db EVOLVE_LEVEL, 26, DUGTRIO
 	db 0 ; no more evolutions
 	db 1, MUD_SLAP ; Sand Attack → Mud-Slap
-if DEF(FAITHFUL)
 	db 1, SCRATCH
-else
-	db 1, METAL_CLAW
-endc
 	db 1, CHARM ; XD move
 	db 4, GROWL
 	db 7, ASTONISH
@@ -904,11 +900,7 @@ endc
 	db 25, ANCIENTPOWER ; Mud Bomb → egg move
 	db 28, EARTH_POWER
 	db 31, DIG
-if DEF(FAITHFUL)
 	db 35, SLASH
-else
-	db 35, IRON_HEAD
-endc
 	db 39, EARTHQUAKE
 	db 43, NIGHT_SLASH ; Fissure → Dugtrio move
 	db 0 ; no more level-up moves
@@ -918,11 +910,7 @@ DugtrioEvosAttacks:
 	db 1, TRI_ATTACK ; Sand Tomb → Tri Attack ; evolution move
 	db 1, NIGHT_SLASH
 	db 1, MUD_SLAP ; Sand Attack → Mud-Slap
-if DEF(FAITHFUL)
 	db 1, SCRATCH
-else
-	db 1, METAL_CLAW
-endc
 	db 1, CHARM ; XD move
 	db 4, GROWL
 	db 7, ASTONISH
@@ -933,11 +921,7 @@ endc
 	db 25, ANCIENTPOWER ; Mud Bomb → egg move
 	db 30, EARTH_POWER
 	db 35, DIG
-if DEF(FAITHFUL)
 	db 41, SLASH
-else
-	db 41, IRON_HEAD
-endc
 	db 47, EARTHQUAKE
 	db 53, NIGHT_SLASH ; Fissure → Night Slash
 	db 0 ; no more level-up moves
@@ -959,9 +943,7 @@ MeowthEvosAttacks:
 	db 41, THIEF ; Assurance → TM move
 	db 46, CHARM ; Captivate → egg move
 	db 49, NIGHT_SLASH
-if !DEF(FAITHFUL)
 	db 55, DARK_PULSE
-endc
 	db 0 ; no more level-up moves
 
 PersianEvosAttacks:
@@ -983,9 +965,7 @@ PersianEvosAttacks:
 	db 49, THIEF ; Assurance → TM move
 	db 56, CHARM ; Captivate → egg move
 	db 61, NIGHT_SLASH
-if !DEF(FAITHFUL)
 	db 65, DARK_PULSE
-endc
 	db 0 ; no more level-up moves
 
 PsyduckEvosAttacks:
@@ -1667,22 +1647,14 @@ GrimerEvosAttacks:
 	db 1, TACKLE ; Pound → similar move
 	db 1, ACID ; Poison Gas → new move
 	db 4, DEFENSE_CURL ; Harden → similar move
-if DEF(FAITHFUL)
 	db 7, MUD_SLAP
-else
-	db 7, BITE
-endc
 	db 12, DISABLE
 	db 15, VENOSHOCK ; Sludge → tutor move
 	db 18, HAZE ; Mud Bomb → egg move
 	db 21, MINIMIZE
 	db 26, FEINT_ATTACK ; Fling → new move
 	db 29, SLUDGE_BOMB
-if DEF(FAITHFUL)
 	db 32, SCARY_FACE ; Sludge Wave → egg move
-else
-	db 32, CRUNCH
-endc
 	db 37, SCREECH
 	db 40, GUNK_SHOT
 	db 43, PAIN_SPLIT ; Acid Armor → HGSS tutor move
@@ -1695,22 +1667,14 @@ MukEvosAttacks:
 	db 1, TACKLE ; Pound → similar move
 	db 1, ACID ; Poison Gas → new move
 	db 4, DEFENSE_CURL ; Harden → similar move
-if DEF(FAITHFUL)
 	db 7, MUD_SLAP
-else
-	db 7, BITE
-endc
 	db 12, DISABLE
 	db 15, VENOSHOCK ; Sludge → tutor move
 	db 18, HAZE ; Mud Bomb → egg move
 	db 21, MINIMIZE
 	db 26, FEINT_ATTACK ; Fling → new move
 	db 29, SLUDGE_BOMB
-if DEF(FAITHFUL)
 	db 32, SCARY_FACE ; Sludge Wave → egg move
-else
-	db 32, CRUNCH
-endc
 	db 37, SCREECH
 	db 40, GUNK_SHOT
 	db 46, PAIN_SPLIT ; Acid Armor → HGSS tutor move
@@ -2041,11 +2005,7 @@ HitmonleeEvosAttacks:
 	db 9, PURSUIT ; Rolling Kick → egg move
 	db 13, LOW_KICK ; Jump Kick → HGSS tutor move
 	db 17, STOMP ; Brick Break → new move
-if DEF(FAITHFUL)
 	db 21, ENDURE ; Focus Energy → TM move
-else
-	db 21, ROCK_SMASH ; Focus Energy → "Brick Break"
-endc
 	db 25, AERIAL_ACE ; Feint → new move
 	db 29, HI_JUMP_KICK
 	db 33, DOUBLE_TEAM ; Mind Reader → TM move
@@ -3496,11 +3456,7 @@ MareepEvosAttacks:
 	db 0 ; no more level-up moves
 
 FlaaffyEvosAttacks:
-if DEF(FAITHFUL)
 	db EVOLVE_LEVEL, 30, AMPHAROS
-else
-	db EVOLVE_LEVEL, 36, AMPHAROS
-endc
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL
@@ -3635,9 +3591,7 @@ SunfloraEvosAttacks:
 	db 1, SPLASH ; Growth → Hoppip move
 	db 1, TACKLE ; Pound → similar move
 	db 1, ABSORB
-if !DEF(FAITHFUL)
 	db 1, EMBER ; evolution move
-endc
 	db 4, GROWTH ; Ingrain → Growth
 	db 7, DEFENSE_CURL ; Grass Whistle → TM move
 	db 10, MEGA_DRAIN
@@ -3647,18 +3601,12 @@ endc
 	db 22, GIGA_DRAIN
 	db 25, AGILITY ; Bullet Seed → TM move
 	db 28, PETAL_DANCE
-if DEF(FAITHFUL)
 	db 31, EARTH_POWER ; Natural Gift → tutor move
-else
-	db 31, FLAMETHROWER ; Natural Gift → TM move
-endc
 	db 34, SOLAR_BEAM
 	db 37, DOUBLE_EDGE
 	db 40, SUNNY_DAY
 	db 43, SEED_BOMB ; Leaf Storm → Sunkern move
-if !DEF(FAITHFUL)
 	db 50, FIRE_BLAST ; Petal Blizzard → TM move
-endc
 	db 0 ; no more level-up moves
 
 YanmaEvosAttacks:
@@ -3674,11 +3622,7 @@ YanmaEvosAttacks:
 	db 22, DRAGON_RAGE ; Supersonic → new move
 	db 27, SUPERSONIC ; Uproar → Supersonic
 	db 30, PURSUIT
-if DEF(FAITHFUL)
 	db 33, ANCIENTPOWER
-else
-	db 35, ANCIENTPOWER
-endc
 	db 38, HYPNOSIS
 	db 43, WING_ATTACK
 	db 46, SCREECH
@@ -3702,11 +3646,7 @@ YanmegaEvosAttacks:
 	db 22, DRAGON_RAGE ; Supersonic → new move
 	db 27, SUPERSONIC ; Uproar → Supersonic
 	db 30, PURSUIT
-if DEF(FAITHFUL)
 	db 33, ANCIENTPOWER
-else
-	db 35, ANCIENTPOWER
-endc
 	db 38, SLASH ; Feint → Slash
 	db 43, WING_ATTACK ; Slash → Wing Attack
 	db 46, SCREECH
@@ -4176,11 +4116,7 @@ HeracrossEvosAttacks:
 	db 19, COUNTER
 	db 25, FURY_STRIKES ; Fury Attack → similar move
 	db 28, SEISMIC_TOSS ; Brick Break → tutor move
-if DEF(FAITHFUL)
 	db 31, PIN_MISSILE
-else
-	db 31, ROCK_SMASH ; Pin Missile → "Brick Break"
-endc
 	db 34, TAKE_DOWN
 	db 37, MEGAHORN
 	db 43, CLOSE_COMBAT
@@ -4430,9 +4366,7 @@ OctilleryEvosAttacks:
 	db 46, SEED_BOMB ; Bullet Seed → tutor move
 	db 52, GUNK_SHOT ; Hydro Pump → new move
 	db 58, HYDRO_PUMP ; Hyper Beam → Hydro Pump
-if !DEF(FAITHFUL)
 	db 58, FIRE_BLAST ; new move
-endc
 	db 64, AURA_SPHERE ; Soak → new move
 	db 70, HYPER_BEAM
 	db 0 ; no more level-up moves

@@ -2598,17 +2598,10 @@ InitDisplayForLeafCredits: ; 4e8c2
 	ld hl, wUnknBGPals
 	ld c, 4 tiles
 .load_white_palettes
-if !DEF(MONOCHROME)
 	ld a, (palred 31 + palgreen 31 + palblue 31) % $100
 	ld [hli], a
 	ld a, (palred 31 + palgreen 31 + palblue 31) / $100
 	ld [hli], a
-else
-	ld a, PAL_MONOCHROME_WHITE % $100
-	ld [hli], a
-	ld a, PAL_MONOCHROME_WHITE / $100
-	ld [hli], a
-endc
 	dec c
 	jr nz, .load_white_palettes
 	xor a

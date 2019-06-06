@@ -135,17 +135,10 @@ ParasectFrontpic:         INCBIN "gfx/pokemon/parasect/front.2bpp.lz"
 ParasectBackpic:          INCBIN "gfx/pokemon/parasect/back.2bpp.lz"
 VenonatFrontpic:          INCBIN "gfx/pokemon/venonat/front.2bpp.lz"
 VenonatBackpic:           INCBIN "gfx/pokemon/venonat/back.2bpp.lz"
-if DEF(FAITHFUL)
 DiglettFrontpic:          INCBIN "gfx/pokemon/diglett/front.2bpp.lz"
 DiglettBackpic:           INCBIN "gfx/pokemon/diglett/back.2bpp.lz"
 DugtrioFrontpic:          INCBIN "gfx/pokemon/dugtrio/front.2bpp.lz"
 DugtrioBackpic:           INCBIN "gfx/pokemon/dugtrio/back.2bpp.lz"
-else
-DiglettFrontpic:          INCBIN "gfx/pokemon/diglett_alolan/front.2bpp.lz"
-DiglettBackpic:           INCBIN "gfx/pokemon/diglett_alolan/back.2bpp.lz"
-DugtrioFrontpic:          INCBIN "gfx/pokemon/dugtrio_alolan/front.2bpp.lz"
-DugtrioBackpic:           INCBIN "gfx/pokemon/dugtrio_alolan/back.2bpp.lz"
-endc
 
 
 SECTION "Pokemon Pics 7", ROMX

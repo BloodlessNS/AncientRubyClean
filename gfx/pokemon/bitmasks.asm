@@ -45,13 +45,8 @@ ParasBitmasks:      INCLUDE "gfx/pokemon/paras/bitmask.asm"
 ParasectBitmasks:   INCLUDE "gfx/pokemon/parasect/bitmask.asm"
 VenonatBitmasks:    INCLUDE "gfx/pokemon/venonat/bitmask.asm"
 VenomothBitmasks:   INCLUDE "gfx/pokemon/venomoth/bitmask.asm"
-if DEF(FAITHFUL)
 DiglettBitmasks:    INCLUDE "gfx/pokemon/diglett/bitmask.asm"
 DugtrioBitmasks:    INCLUDE "gfx/pokemon/dugtrio/bitmask.asm"
-else
-DiglettBitmasks:    INCLUDE "gfx/pokemon/diglett_alolan/bitmask.asm"
-DugtrioBitmasks:    INCLUDE "gfx/pokemon/dugtrio_alolan/bitmask.asm"
-endc
 MeowthBitmasks:     INCLUDE "gfx/pokemon/meowth/bitmask.asm"
 PersianBitmasks:    INCLUDE "gfx/pokemon/persian/bitmask.asm"
 PsyduckBitmasks:    INCLUDE "gfx/pokemon/psyduck/bitmask.asm"

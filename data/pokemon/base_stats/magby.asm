@@ -1,10 +1,5 @@
-if DEF(FAITHFUL)
 	db  45,  75,  37,  83,  70,  55
 	;   hp  atk  def  spd  sat  sdf
-else
-	db  50,  75,  37,  83,  70,  55
-	;   hp  atk  def  spd  sat  sdf
-endc
 
 	db FIRE, FIRE
 	db 45 ; catch rate

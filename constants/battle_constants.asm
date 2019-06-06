@@ -56,7 +56,6 @@ FAKE_PERFECT_DVS EQUS "$00, $00, $00"
 
 ; Hidden Power DVs ($00 is converted to $ff in regular trainer sets)
 ; Chosen for stat importance: Speed > * > Atk
-if DEF(FAITHFUL)
 DVS_HP_FIGHTING EQUS "$00, $ee, $ee"
 DVS_HP_FLYING   EQUS "$ee, $ef, $ee"
 DVS_HP_POISON   EQUS "$00, $ef, $ee"
@@ -73,27 +72,8 @@ DVS_HP_PSYCHIC  EQUS "$fe, $fe, $00"
 DVS_HP_ICE      EQUS "$fe, $ef, $00"
 DVS_HP_DRAGON   EQUS "$fe, $00, $00"
 DVS_HP_DARK     EQUS "$00, $00, $00"
-else
-DVS_HP_FIGHTING EQUS "$00, $ee, $ee"
-DVS_HP_FLYING   EQUS "$00, $fe, $ee"
-DVS_HP_POISON   EQUS "$00, $ef, $ee"
-DVS_HP_GROUND   EQUS "$00, $00, $ee"
-DVS_HP_ROCK     EQUS "$00, $ee, $fe"
-DVS_HP_BUG      EQUS "$00, $fe, $fe"
-DVS_HP_GHOST    EQUS "$00, $ef, $fe"
-DVS_HP_STEEL    EQUS "$00, $00, $fe"
-DVS_HP_FIRE     EQUS "$00, $ee, $ef"
-DVS_HP_WATER    EQUS "$00, $fe, $ef"
-DVS_HP_GRASS    EQUS "$00, $ef, $ef"
-DVS_HP_ELECTRIC EQUS "$00, $00, $ef"
-DVS_HP_PSYCHIC  EQUS "$00, $ee, $00"
-DVS_HP_ICE      EQUS "$00, $fe, $00"
-DVS_HP_DRAGON   EQUS "$00, $ef, $00"
-DVS_HP_DARK     EQUS "$fe, $00, $00"
-endc
 
 ; battle tower hidden power dvs ($ff instead of $00)
-if DEF(FAITHFUL)
 BTDVS_HP_FIGHTING EQUS "$ff, $ee, $ee"
 BTDVS_HP_FLYING   EQUS "$ee, $ef, $ee"
 BTDVS_HP_POISON   EQUS "$ff, $ef, $ee"
@@ -110,24 +90,6 @@ BTDVS_HP_PSYCHIC  EQUS "$fe, $fe, $ff"
 BTDVS_HP_ICE      EQUS "$fe, $ef, $ff"
 BTDVS_HP_DRAGON   EQUS "$fe, $ff, $ff"
 BTDVS_HP_DARK     EQUS "$ff, $ff, $ff"
-else
-BTDVS_HP_FIGHTING EQUS "$ff, $ee, $ee"
-BTDVS_HP_FLYING   EQUS "$ff, $fe, $ee"
-BTDVS_HP_POISON   EQUS "$ff, $ef, $ee"
-BTDVS_HP_GROUND   EQUS "$ff, $ff, $ee"
-BTDVS_HP_ROCK     EQUS "$ff, $ee, $fe"
-BTDVS_HP_BUG      EQUS "$ff, $fe, $fe"
-BTDVS_HP_GHOST    EQUS "$ff, $ef, $fe"
-BTDVS_HP_STEEL    EQUS "$ff, $ff, $fe"
-BTDVS_HP_FIRE     EQUS "$ff, $ee, $ef"
-BTDVS_HP_WATER    EQUS "$ff, $fe, $ef"
-BTDVS_HP_GRASS    EQUS "$ff, $ef, $ef"
-BTDVS_HP_ELECTRIC EQUS "$ff, $ff, $ef"
-BTDVS_HP_PSYCHIC  EQUS "$ff, $ee, $ff"
-BTDVS_HP_ICE      EQUS "$ff, $fe, $ff"
-BTDVS_HP_DRAGON   EQUS "$ff, $ef, $ff"
-BTDVS_HP_DARK     EQUS "$fe, $ff, $ff"
-endc
 
 ; battle classes
 	const_def 1

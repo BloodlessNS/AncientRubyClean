@@ -404,10 +404,6 @@ PlayRoughDescription:
 	next "lower Attack.@"
 
 RockSmashDescription:
-if !DEF(FAITHFUL)
-	db   "Removes Reflect"
-	next "and Light Screen.@"
-endc
 CrunchDescription:
 IronTailDescription:
 	db   "An attack that may"

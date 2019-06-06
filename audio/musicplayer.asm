@@ -66,7 +66,6 @@ jpheldbutton: macro
 endm
 
 MusicPlayerPals:
-if !DEF(MONOCHROME)
 ; bg
 	RGB 02, 03, 04
 	RGB 02, 03, 04
@@ -87,27 +86,12 @@ if !DEF(MONOCHROME)
 	RGB 02, 03, 04
 	RGB 31, 07, 07
 	RGB 26, 28, 30
-else
-rept 4
-	RGB_MONOCHROME_BLACK
-	RGB_MONOCHROME_BLACK
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_WHITE
-endr
-endc
 
 MusicPlayerNotePals:
-if !DEF(MONOCHROME)
 	RGB 02, 03, 04 ; bg
 	RGB 06, 26, 06 ; green
 	RGB 07, 07, 31 ; blue
 	RGB 31, 07, 07 ; red
-else
-	RGB_MONOCHROME_BLACK
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_LIGHT
-endc
 
 MusicPlayer::
 	call ClearTileMap

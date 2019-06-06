@@ -3375,10 +3375,6 @@ PlayerAttackDamage: ; 352e2
 	ld b, a
 	ld c, [hl]
 
-if !DEF(FAITHFUL)
-	call HailDefenseBoost
-endc
-
 	ld hl, wBattleMonAttack
 	ld a, [wEnemyAbility]
 	cp INFILTRATOR
@@ -3474,10 +3470,6 @@ EnemyAttackDamage: ; 353f6
 	ld a, [hli]
 	ld b, a
 	ld c, [hl]
-
-if !DEF(FAITHFUL)
-	call HailDefenseBoost
-endc
 
 	ld hl, wEnemyMonAttack
 	ld a, [wPlayerAbility]

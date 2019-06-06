@@ -112,14 +112,10 @@ SetInitialOptions:
 	db "@"
 
 .BGPalette:
-if !DEF(MONOCHROME)
 	RGB 31, 31, 31
 	RGB 09, 30, 31
 	RGB 01, 11, 31
 	RGB 00, 00, 00
-else
-	MONOCHROME_RGB_FOUR
-endc
 
 .BGTile:
 INCBIN "gfx/new_game/init_bg.2bpp"

@@ -175,9 +175,6 @@ VaryColorsByDVs::
 ; [wColorVarySpecies] = species
 ; [wColorVaryShiny] = shiny
 
-if DEF(MONOCHROME) || DEF(NOIR)
-	ret
-endc
 
 	ld a, [wInitialOptions]
 	bit COLOR_VARY_OPT, a
@@ -310,7 +307,6 @@ endc
 ; need to be able to add or subtract 1 without overflow/underflow
 
 .SmearglePals:
-if !DEF(MONOCHROME)
 	RGB 14, 05, 06 ; maroon (fighting)
 	RGB 27, 09, 26 ; lavender (flying)
 	RGB 29, 05, 06 ; red (poison)
@@ -327,27 +323,8 @@ if !DEF(MONOCHROME)
 	RGB 02, 22, 26 ; teal (ice)
 	RGB 07, 11, 30 ; indigo (dragon)
 	RGB 08, 06, 06 ; black (dark)
-else
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_DARK
-endc
 
 .SmeargleShinyPals: ; TODO
-if !DEF(MONOCHROME)
 	RGB 14, 05, 06 ; maroon (fighting)
 	RGB 27, 09, 26 ; lavender (flying)
 	RGB 29, 05, 06 ; red (poison)
@@ -364,24 +341,6 @@ if !DEF(MONOCHROME)
 	RGB 02, 22, 26 ; teal (ice)
 	RGB 07, 11, 30 ; indigo (dragon)
 	RGB 08, 06, 06 ; black (dark)
-else
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_DARK
-	RGB_MONOCHROME_DARK
-endc
 
 VaryBGPal0ByTempMonDVs:
 	ld hl, wTempMonDVs

@@ -28,20 +28,9 @@ Predef_StartBattle: ; 8c20f
 	ld [rSVBK], a
 
 	ld hl, wUnknBGPals
-if !DEF(MONOCHROME)
 	ld bc, 8 palettes
 	xor a
 	call ByteFill
-else
-	ld b, (8 palettes) / 2
-.mono_loop
-	ld a, PAL_MONOCHROME_BLACK % $100
-	ld [hli], a
-	ld a, PAL_MONOCHROME_BLACK / $100
-	ld [hli], a
-	dec b
-	jr nz, .mono_loop
-endc
 
 	pop af
 	ld [rSVBK], a
@@ -686,7 +675,6 @@ StartTrainerBattle_LoadPokeBallGraphics: ; 8c5dc (23:45dc)
 	db -1
 
 .timepals
-if !DEF(MONOCHROME)
 ; morn
 	RGB 31, 24, 18
 	RGB 31, 15, 17
@@ -707,22 +695,12 @@ if !DEF(MONOCHROME)
 	RGB 07, 03, 03
 	RGB 00, 00, 00
 	RGB 00, 00, 00
-else
-	MONOCHROME_RGB_FOUR
-	MONOCHROME_RGB_FOUR
-	MONOCHROME_RGB_FOUR
-	MONOCHROME_RGB_FOUR_NIGHT
-endc
 
 .armored_mewtwo_pals
-if !DEF(MONOCHROME)
 	RGB 29, 18, 31
 	RGB 21, 11, 31
 	RGB 13, 05, 31
 	RGB 07, 07, 07
-else
-	MONOCHROME_RGB_FOUR
-endc
 
 PokeBallTransition:
 	db %00000011, %11000000

@@ -46,13 +46,8 @@ ParasFrames:      INCLUDE "gfx/pokemon/paras/frames.asm"
 ParasectFrames:   INCLUDE "gfx/pokemon/parasect/frames.asm"
 VenonatFrames:    INCLUDE "gfx/pokemon/venonat/frames.asm"
 VenomothFrames:   INCLUDE "gfx/pokemon/venomoth/frames.asm"
-if DEF(FAITHFUL)
 DiglettFrames:    INCLUDE "gfx/pokemon/diglett/frames.asm"
 DugtrioFrames:    INCLUDE "gfx/pokemon/dugtrio/frames.asm"
-else
-DiglettFrames:    INCLUDE "gfx/pokemon/diglett_alolan/frames.asm"
-DugtrioFrames:    INCLUDE "gfx/pokemon/dugtrio_alolan/frames.asm"
-endc
 MeowthFrames:     INCLUDE "gfx/pokemon/meowth/frames.asm"
 PersianFrames:    INCLUDE "gfx/pokemon/persian/frames.asm"
 PsyduckFrames:    INCLUDE "gfx/pokemon/psyduck/frames.asm"

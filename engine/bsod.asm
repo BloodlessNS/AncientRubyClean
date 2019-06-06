@@ -43,25 +43,27 @@ BSOD:
 ; 4eac5
 
 .Palette:
-if !DEF(MONOCHROME)
 	RGB 00, 00, 31
 	RGB 00, 00, 31
 	RGB 31, 31, 31
 	RGB 31, 31, 31
-else
-	RGB_MONOCHROME_BLACK
-	RGB_MONOCHROME_BLACK
-	RGB_MONOCHROME_WHITE
-	RGB_MONOCHROME_WHITE
-endc
 
 .Message: ; 4eb38
+IF DEF(SAPPHIRE)
 	db   "      Pokémon"
-	next " Polished Crystal"
+	next "  Ancient Sapphire"
 	next "       ERROR"
 	next "------------------"
 	next "Please report this"
 	next "crash to the deve-"
-	next "loper, Rangi42, at"
-	next "tinyurl.com/pkpc3.@"
+	next "loper.@"
+else
+	db   "      Pokémon"
+	next "    Ancient Ruby"
+	next "       ERROR"
+	next "------------------"
+	next "Please report this"
+	next "crash to the deve-"
+	next "loper.@"
+endc
 ; 4eb76

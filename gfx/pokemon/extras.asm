@@ -45,13 +45,8 @@ ParasAnimationExtra:      INCLUDE "gfx/pokemon/paras/anim1.asm"
 ParasectAnimationExtra:   INCLUDE "gfx/pokemon/parasect/anim1.asm"
 VenonatAnimationExtra:    INCLUDE "gfx/pokemon/venonat/anim1.asm"
 VenomothAnimationExtra:   INCLUDE "gfx/pokemon/venomoth/anim1.asm"
-if DEF(FAITHFUL)
 DiglettAnimationExtra:    INCLUDE "gfx/pokemon/diglett/anim1.asm"
 DugtrioAnimationExtra:    INCLUDE "gfx/pokemon/dugtrio/anim1.asm"
-else
-DiglettAnimationExtra:    INCLUDE "gfx/pokemon/diglett_alolan/anim1.asm"
-DugtrioAnimationExtra:    INCLUDE "gfx/pokemon/dugtrio_alolan/anim1.asm"
-endc
 MeowthAnimationExtra:     INCLUDE "gfx/pokemon/meowth/anim1.asm"
 PersianAnimationExtra:    INCLUDE "gfx/pokemon/persian/anim1.asm"
 PsyduckAnimationExtra:    INCLUDE "gfx/pokemon/psyduck/anim1.asm"

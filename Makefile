@@ -1,8 +1,8 @@
-NAME := polishedcrystal
-VERSION := 3.0.0-beta
+NAME := ancientruby
+VERSION := 1.0.0-beta
 
-TITLE := PKPCRYSTAL
-MCODE := PKPC
+TITLE := PKANCIENT
+MCODE := PKRS
 ROMVERSION := 0x30
 
 FILLER = 0x00
@@ -19,20 +19,11 @@ RGBFIX_FLAGS = -csjv -t $(TITLE) -i $(MCODE) -n $(ROMVERSION) -p $(FILLER) -k 01
 
 CFLAGS = -O3 -std=c11 -Wall -Wextra -pedantic
 
-ifeq ($(filter faithful,$(MAKECMDGOALS)),faithful)
-RGBASM_FLAGS += -DFAITHFUL
+ifeq ($(filter sapphire,$(MAKECMDGOALS)),sapphire)
+RGBASM_FLAGS += -DSAPPHIRE
 endif
 ifeq ($(filter nortc,$(MAKECMDGOALS)),nortc)
 RGBASM_FLAGS += -DNO_RTC
-endif
-ifeq ($(filter monochrome,$(MAKECMDGOALS)),monochrome)
-RGBASM_FLAGS += -DMONOCHROME
-endif
-ifeq ($(filter noir,$(MAKECMDGOALS)),noir)
-RGBASM_FLAGS += -DNOIR
-endif
-ifeq ($(filter hgss,$(MAKECMDGOALS)),hgss)
-RGBASM_FLAGS += -DHGSS
 endif
 ifeq ($(filter debug,$(MAKECMDGOALS)),debug)
 RGBASM_FLAGS += -DDEBUG
@@ -40,7 +31,7 @@ endif
 
 
 .SUFFIXES:
-.PHONY: all clean crystal faithful nortc debug monochrome bankfree freespace compare tools
+.PHONY: all clean ruby sapphire nortc debug bankfree freespace compare tools
 .SECONDEXPANSION:
 .PRECIOUS: %.2bpp %.1bpp %.lz %.o
 
@@ -61,7 +52,7 @@ SCAN_INCLUDES = tools/scan_includes
 bank_ends := $(PYTHON) contents/bank_ends.py $(NAME)-$(VERSION)
 
 
-crystal_obj := \
+ruby_obj := \
 main.o \
 home.o \
 ram.o \
@@ -79,18 +70,15 @@ gfx/pics.o \
 gfx/sprites.o
 
 
-all: crystal
+all: ruby
 
-crystal: FILLER = 0x00
-crystal: ROM_NAME = $(NAME)-$(VERSION)
-crystal: $(NAME)-$(VERSION).gbc
+ruby: FILLER = 0x00
+ruby: ROM_NAME = $(NAME)-$(VERSION)
+ruby: $(NAME)-$(VERSION).gbc
 
-faithful: crystal
-nortc: crystal
-monochrome: crystal
-noir: crystal
-hgss: crystal
-debug: crystal
+sapphire: ruby
+nortc: ruby
+debug: ruby
 
 bankfree: FILLER = 0xff
 bankfree: ROM_NAME = $(NAME)-$(VERSION)-0xff
@@ -114,15 +102,15 @@ $(SCAN_INCLUDES): $(SCAN_INCLUDES).c
 
 
 clean:
-	$(RM) $(crystal_obj) $(wildcard $(NAME)-*.gbc) $(wildcard $(NAME)-*.map) $(wildcard $(NAME)-*.sym)
+	$(RM) $(ruby_obj) $(wildcard $(NAME)-*.gbc) $(wildcard $(NAME)-*.map) $(wildcard $(NAME)-*.sym)
 
-compare: crystal
+compare: ruby
 	$(MD5) -c $(roms_md5)
 
 
-$(bank_ends_txt): crystal bankfree ; $(bank_ends) > $@
-$(roms_md5): crystal ; $(MD5) $(NAME)-$(VERSION).gbc > $@
-$(sorted_sym): crystal ; tail -n +3 $(NAME)-$(VERSION).sym | sort -o $@
+$(bank_ends_txt): ruby bankfree ; $(bank_ends) > $@
+$(roms_md5): ruby ; $(MD5) $(NAME)-$(VERSION).gbc > $@
+$(sorted_sym): ruby ; tail -n +3 $(NAME)-$(VERSION).sym | sort -o $@
 
 
 %.o: dep = $(shell $(SCAN_INCLUDES) $(@D)/$*.asm)
@@ -130,7 +118,7 @@ $(sorted_sym): crystal ; tail -n +3 $(NAME)-$(VERSION).sym | sort -o $@
 	$(RGBDS_DIR)rgbasm $(RGBASM_FLAGS) -o $@ $<
 
 .gbc:
-%.gbc: $(crystal_obj)
+%.gbc: $(ruby_obj)
 	$(RGBDS_DIR)rgblink $(RGBLINK_FLAGS) -o $@ $^
 	$(RGBDS_DIR)rgbfix $(RGBFIX_FLAGS) $@
 

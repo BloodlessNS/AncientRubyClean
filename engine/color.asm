@@ -236,21 +236,12 @@ LoadPalette_White_Col1_Col2_Black:
 	ld a, $5
 	ld [rSVBK], a
 
-if !DEF(MONOCHROME)
 	ld a, (palred 31 + palgreen 31 + palblue 31) % $100
 	ld [de], a
 	inc de
 	ld a, (palred 31 + palgreen 31 + palblue 31) / $100
 	ld [de], a
 	inc de
-else
-	ld a, PAL_MONOCHROME_WHITE % $100
-	ld [de], a
-	inc de
-	ld a, PAL_MONOCHROME_WHITE / $100
-	ld [de], a
-	inc de
-endc
 
 	ld c, 2 * 2
 .loop
@@ -260,20 +251,11 @@ endc
 	dec c
 	jr nz, .loop
 
-if !DEF(MONOCHROME)
 	xor a ; RGB 00, 00, 00
 rept 2
 	ld [de], a
 	inc de
 endr
-else
-	ld a, PAL_MONOCHROME_BLACK % $100
-	ld [de], a
-	inc de
-	ld a, PAL_MONOCHROME_BLACK / $100
-	ld [de], a
-	inc de
-endc
 
 	pop af
 	ld [rSVBK], a
@@ -309,7 +291,6 @@ ResetBGPals:
 	ld hl, wUnknBGPals
 	ld c, 8
 .loop
-if !DEF(MONOCHROME)
 	ld a, $ff ; RGB 31, 31, 31
 rept 4
 	ld [hli], a
@@ -318,20 +299,6 @@ endr
 rept 4
 	ld [hli], a
 endr
-else
-rept 2
-	ld a, PAL_MONOCHROME_WHITE % $100
-	ld [hli], a
-	ld a, PAL_MONOCHROME_WHITE / $100
-	ld [hli], a
-endr
-rept 2
-	ld a, PAL_MONOCHROME_BLACK % $100
-	ld [hli], a
-	ld a, PAL_MONOCHROME_BLACK / $100
-	ld [hli], a
-endr
-endc
 	dec c
 	jr nz, .loop
 
@@ -628,34 +595,20 @@ InitCGBPals::
 	ld [rBGPI], a
 	ld c, 4 * 8
 .bgpals_loop
-if !DEF(MONOCHROME)
 	ld a, (palred 31 + palgreen 31 + palblue 31) % $100
 	ld [rBGPD], a
 	ld a, (palred 31 + palgreen 31 + palblue 31) / $100
 	ld [rBGPD], a
-else
-	ld a, PAL_MONOCHROME_WHITE % $100
-	ld [rBGPD], a
-	ld a, PAL_MONOCHROME_WHITE / $100
-	ld [rBGPD], a
-endc
 	dec c
 	jr nz, .bgpals_loop
 	ld a, $80
 	ld [rOBPI], a
 	ld c, 4 * 8
 .obpals_loop
-if !DEF(MONOCHROME)
 	ld a, (palred 31 + palgreen 31 + palblue 31) % $100
 	ld [rOBPD], a
 	ld a, (palred 31 + palgreen 31 + palblue 31) / $100
 	ld [rOBPD], a
-else
-	ld a, PAL_MONOCHROME_WHITE % $100
-	ld [rOBPD], a
-	ld a, PAL_MONOCHROME_WHITE / $100
-	ld [rOBPD], a
-endc
 	dec c
 	jr nz, .obpals_loop
 	ld a, [rSVBK]
@@ -673,17 +626,10 @@ endc
 .LoadWhitePals:
 	ld c, 4 * 16
 .loop
-if !DEF(MONOCHROME)
 	ld a, (palred 31 + palgreen 31 + palblue 31) % $100
 	ld [hli], a
 	ld a, (palred 31 + palgreen 31 + palblue 31) / $100
 	ld [hli], a
-else
-	ld a, PAL_MONOCHROME_WHITE % $100
-	ld [hli], a
-	ld a, PAL_MONOCHROME_WHITE / $100
-	ld [hli], a
-endc
 	dec c
 	jr nz, .loop
 	ret
@@ -837,40 +783,16 @@ endr
 INCLUDE "data/maps/environment_colors.asm"
 
 TilesetBGPalette:
-if DEF(HGSS)
-INCLUDE "gfx/tilesets/palettes/hgss/bg.pal"
-elif DEF(MONOCHROME)
-INCLUDE "gfx/tilesets/palettes/monochrome/bg.pal"
-else
 INCLUDE "gfx/tilesets/bg_tiles.pal"
-endc
 
 MapObjectPals:
-if DEF(HGSS)
-INCLUDE "gfx/tilesets/palettes/hgss/ob.pal"
-elif DEF(MONOCHROME)
-INCLUDE "gfx/tilesets/palettes/monochrome/ob.pal"
-else
 INCLUDE "gfx/overworld/npc_sprites.pal"
-endc
 
 RoofPals:
-if DEF(HGSS)
-INCLUDE "gfx/tilesets/palettes/hgss/roof.pal"
-elif DEF(MONOCHROME)
-INCLUDE "gfx/tilesets/palettes/monochrome/roof.pal"
-else
 INCLUDE "gfx/tilesets/roofs.pal"
-endc
 
 OvercastRoofPals:
-if DEF(HGSS)
-INCLUDE "gfx/tilesets/palettes/hgss/roof_overcast.pal"
-elif DEF(MONOCHROME)
-INCLUDE "gfx/tilesets/palettes/monochrome/roof_overcast.pal"
-else
 INCLUDE "gfx/tilesets/roofs_overcast.pal"
-endc
 
 
 INCLUDE "data/pokemon/palettes.asm"

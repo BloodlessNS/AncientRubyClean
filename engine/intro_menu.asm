@@ -200,7 +200,7 @@ ResetWRAM: ; 5ba7
 	ld hl, wNumKeyItems
 	call _ResetWRAM_InitList
 
-	ld hl, wNumPCItems
+	ld hl, wPCItems
 	call _ResetWRAM_InitList
 
 	ld hl, wTMsHMs
@@ -234,9 +234,6 @@ endr
 	ld [wCoins + 1], a
 
 	ld [wRegisteredItems], a
-	ld [wRegisteredItems + 1], a
-	ld [wRegisteredItems + 2], a
-	ld [wRegisteredItems + 3], a
 
 	ld [wWhichMomItem], a
 
@@ -657,14 +654,13 @@ Continue_DisplayGameTime: ; 5f84
 
 ProfElmSpeech: ; 0x5f99
 	farcall InitClock
-	ld c, 31
 	call FadeToBlack
 	call ClearTileMap
 
 	ld de, MUSIC_ROUTE_30
 	call PlayMusic
 
-	ld c, 31
+	call FadeToBlack
 	call FadeToWhite
 
 	xor a
@@ -681,7 +677,6 @@ ProfElmSpeech: ; 0x5f99
 	ld hl, ElmText1
 	call PrintText
 if !DEF(DEBUG)
-	ld c, 15
 	call FadeToWhite
 	call ClearTileMap
 
@@ -707,7 +702,6 @@ if !DEF(DEBUG)
 	call PrintText
 	ld hl, ElmText4
 	call PrintText
-	ld c, 15
 	call FadeToWhite
 	call ClearTileMap
 
@@ -783,14 +777,7 @@ ElmText7: ; 0x606f
 	db "@"
 
 InitGender: ; 48dcb (12:4dcb)
-	ld hl, WhitePal
-	ld de, wUnknBGPals palette 0
-	ld bc, 1 palettes
-	ld a, 5
-	call FarCopyWRAM
-	ld c, 15
-	call FadePalettes
-
+	call FadeToWhite
 	call ClearTileMap
 	call ApplyAttrAndTilemapInVBlank
 	call SetPalettes
@@ -798,7 +785,6 @@ InitGender: ; 48dcb (12:4dcb)
 	ld b, CGB_INTRO_PALS
 	call GetCGBLayout
 	call InitIntroGradient
-	call SetPalettes
 
 	ld hl, AreYouABoyOrAreYouAGirlText
 	call PrintText
@@ -927,7 +913,6 @@ ShrinkPlayer: ; 610f
 	ld c, 50
 	call DelayFrames
 
-	ld c, 15
 	call FadeToWhite
 	jp ClearTileMap
 ; 616a
@@ -1105,7 +1090,7 @@ RunTitleScreen: ; 627b
 	bit 7, a
 	jr nz, .done_title
 	call TitleScreenScene
-	farcall SuicuneFrameIterator
+	farcall GroudonFrameIterator
 	call DelayFrame
 	and a
 	ret
@@ -1164,8 +1149,6 @@ TitleScreenEntrance: ; 62bc
 	inc hl
 	dec b
 	jr nz, .loop
-
-	farjp AnimateTitleCrystal
 
 .done
 ; Next scene

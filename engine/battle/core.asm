@@ -3689,7 +3689,6 @@ InitBattleMon: ; 3da0d
 	ld a, [wBaseType2]
 	ld [wBattleMonType2], a
 
-if !DEF(FAITHFUL)
 	; Armored Mewtwo is Psychic/Steel
 	ld a, [wBattleMonSpecies]
 	cp MEWTWO
@@ -3700,7 +3699,6 @@ if !DEF(FAITHFUL)
 	ld a, STEEL
 	ld [wBattleMonType2], a
 .not_armored_mewtwo
-endc
 
 	ld hl, wPartyMonNicknames
 	ld a, [wCurBattleMon]
@@ -3803,7 +3801,6 @@ InitEnemyMon: ; 3dabd
 	ld a, [hl]
 	ld [de], a
 
-if !DEF(FAITHFUL)
 	; Armored Mewtwo is Psychic/Steel
 	ld a, [wEnemyMonSpecies]
 	cp MEWTWO
@@ -3814,7 +3811,6 @@ if !DEF(FAITHFUL)
 	ld a, STEEL
 	ld [wEnemyMonType2], a
 .not_armored_mewtwo
-endc
 
 	ld hl, wBaseStats
 	ld de, wEnemyMonBaseStats
@@ -6694,17 +6690,8 @@ LoadEnemyMon: ; 3e8eb
 	; Failing that, it's all up to chance
 
 	call GetLeadAbility
-if DEF(FAITHFUL)
 	cp COMPOUND_EYES
 	jr nz, .no_compound_eyes_or_amulet_coin
-else
-	cp COMPOUND_EYES
-	jr z, .compound_eyes
-	; If the party lead holds an Amulet Coin, chances are increased
-	ld a, [wPartyMon1Item]
-	cp AMULET_COIN
-	jr nz, .no_compound_eyes_or_amulet_coin
-endc
 
 .compound_eyes:
 	; 60% chance of getting Item1
@@ -7129,7 +7116,6 @@ endr
 	ld a, [hl]
 	ld [de], a
 
-if !DEF(FAITHFUL)
 	; Armored Mewtwo is Psychic/Steel
 	ld a, [wEnemyMonSpecies]
 	cp MEWTWO
@@ -7140,7 +7126,6 @@ if !DEF(FAITHFUL)
 	ld a, STEEL
 	ld [wEnemyMonType2], a
 .not_armored_mewtwo
-endc
 
 	; Get moves
 	ld de, wEnemyMonMoves

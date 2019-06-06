@@ -43,7 +43,6 @@ GetHiddenPowerType::
 	dec c
 	jr nz, .loop
 	; b = %00fedcba (SpD, SpA, Spe, Def, Atk, HP)
-if DEF(FAITHFUL)
 ; type = %fedcba * 15 / 63 + 1 (1-16, Fighting-Dark)
 	inc c
 	ld e, c ; ld e, 1
@@ -61,17 +60,6 @@ if DEF(FAITHFUL)
 	ld b, a
 	inc e
 	jr .loop2
-else
-; type = %fedcba * 16 / 63 + 1 (1-17, Fighting-Fairy)
-	ld a, b
-	cp 63
-	ld e, 17
-	jr z, .got_type
-	srl a
-	srl a
-	inc a
-	ld e, a
-endc
 
 .got_type
 	ld a, e
