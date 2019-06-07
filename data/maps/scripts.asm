@@ -4,13 +4,11 @@ INCLUDE "maps/CherrygrovePokeCenter1F.asm"
 INCLUDE "maps/VioletPokeCenter1F.asm"
 INCLUDE "maps/AzaleaPokeCenter1F.asm"
 INCLUDE "maps/EcruteakPokeCenter1F.asm"
-INCLUDE "maps/OlivinePokeCenter1F.asm"
 INCLUDE "maps/CianwoodPokeCenter1F.asm"
 
 
 SECTION "Pokemon Center Scripts 2", ROMX
 
-INCLUDE "maps/MahoganyPokeCenter1F.asm"
 INCLUDE "maps/BlackthornPokeCenter1F.asm"
 INCLUDE "maps/IndigoPlateauPokecenter1F.asm"
 INCLUDE "maps/ViridianPokeCenter1F.asm"
@@ -97,9 +95,6 @@ INCLUDE "maps/Route32CoastHouse.asm"
 
 SECTION "Dark Cave Scripts", ROMX
 
-INCLUDE "maps/DarkCaveVioletEntrance.asm"
-INCLUDE "maps/DarkCaveBlackthornEntrance.asm"
-
 
 SECTION "Violet Scripts", ROMX
 
@@ -112,10 +107,6 @@ INCLUDE "maps/EarlsPokemonAcademy.asm"
 
 
 SECTION "Sprout Tower Scripts", ROMX
-
-INCLUDE "maps/SproutTower1F.asm"
-INCLUDE "maps/SproutTower2F.asm"
-INCLUDE "maps/SproutTower3F.asm"
 
 
 SECTION "Violet Outskirts Scripts", ROMX
@@ -157,11 +148,6 @@ INCLUDE "maps/MystriStage.asm"
 
 SECTION "Union Cave Scripts", ROMX
 
-INCLUDE "maps/UnionCave1F.asm"
-INCLUDE "maps/UnionCaveB1FNorth.asm"
-INCLUDE "maps/UnionCaveB1FSouth.asm"
-INCLUDE "maps/UnionCaveB2F.asm"
-
 
 SECTION "Azalea Scripts", ROMX
 
@@ -174,13 +160,9 @@ INCLUDE "maps/KurtsHouse.asm"
 
 SECTION "Slowpoke Well Scripts", ROMX
 
-INCLUDE "maps/SlowpokeWellB1F.asm"
-INCLUDE "maps/SlowpokeWellB2F.asm"
-
 
 SECTION "Ilex Forest Scripts", ROMX
 
-INCLUDE "maps/IlexForest.asm"
 INCLUDE "maps/IlexForestAzaleaGate.asm"
 INCLUDE "maps/Route34IlexForestGate.asm"
 
@@ -230,24 +212,15 @@ INCLUDE "maps/GoldenrodDeptStore3F.asm"
 INCLUDE "maps/GoldenrodDeptStore4F.asm"
 INCLUDE "maps/GoldenrodDeptStore5F.asm"
 INCLUDE "maps/GoldenrodDeptStore6F.asm"
-INCLUDE "maps/GoldenrodDeptStoreB1F.asm"
 INCLUDE "maps/GoldenrodDeptStoreElevator.asm"
 INCLUDE "maps/GoldenrodDeptStoreRoof.asm"
 
 
 SECTION "Radio Tower Scripts", ROMX
 
-INCLUDE "maps/RadioTower1F.asm"
-INCLUDE "maps/RadioTower2F.asm"
-INCLUDE "maps/RadioTower3F.asm"
-INCLUDE "maps/RadioTower4F.asm"
-INCLUDE "maps/RadioTower5F.asm"
-
 
 SECTION "Underground Warehouse Scripts", ROMX
 
-INCLUDE "maps/UndergroundWarehouse.asm"
-INCLUDE "maps/UndergroundPathSwitchRoomEntrances.asm"
 INCLUDE "maps/WarehouseEntrance.asm"
 
 
@@ -259,9 +232,6 @@ INCLUDE "maps/MagnetTunnelInside.asm"
 
 
 SECTION "National Park Scripts", ROMX
-
-INCLUDE "maps/NationalPark.asm"
-INCLUDE "maps/NationalParkBugContest.asm"
 
 
 SECTION "Ecruteak Scripts", ROMX
@@ -287,56 +257,19 @@ INCLUDE "maps/BellchimeTrail.asm"
 
 
 SECTION "Tin Tower Scripts", ROMX
-
-INCLUDE "maps/TinTower1F.asm"
-INCLUDE "maps/TinTower2F.asm"
-INCLUDE "maps/TinTower3F.asm"
-INCLUDE "maps/TinTower4F.asm"
-INCLUDE "maps/TinTower5F.asm"
-INCLUDE "maps/TinTower6F.asm"
-INCLUDE "maps/TinTower7F.asm"
-INCLUDE "maps/TinTower8F.asm"
-INCLUDE "maps/TinTower9F.asm"
-INCLUDE "maps/TinTower10F.asm"
 INCLUDE "maps/TinTowerRoof.asm"
-INCLUDE "maps/BurnedTower1F.asm"
-INCLUDE "maps/BurnedTowerB1F.asm"
 
 
 SECTION "Olivine Scripts", ROMX
 
-INCLUDE "maps/OlivineCity.asm"
-INCLUDE "maps/OlivineMart.asm"
-INCLUDE "maps/OlivineGym.asm"
-INCLUDE "maps/OlivineCafe.asm"
-INCLUDE "maps/OlivineGoodRodHouse.asm"
 INCLUDE "maps/OlivinePort.asm"
 INCLUDE "maps/OlivinePortPassage.asm"
-INCLUDE "maps/OlivinePunishmentSpeechHouse.asm"
-INCLUDE "maps/OlivineTimsHouse.asm"
 
 
 SECTION "Olivine Lighthouse Scripts", ROMX
 
-INCLUDE "maps/OlivineLighthouse1F.asm"
-INCLUDE "maps/OlivineLighthouse2F.asm"
-INCLUDE "maps/OlivineLighthouse3F.asm"
-INCLUDE "maps/OlivineLighthouse4F.asm"
-INCLUDE "maps/OlivineLighthouse5F.asm"
-INCLUDE "maps/OlivineLighthouse6F.asm"
-INCLUDE "maps/OlivineLighthouseRoof.asm"
-
 
 SECTION "Whirl Island Scripts", ROMX
-
-INCLUDE "maps/WhirlIslandNE.asm"
-INCLUDE "maps/WhirlIslandNW.asm"
-INCLUDE "maps/WhirlIslandSE.asm"
-INCLUDE "maps/WhirlIslandSW.asm"
-INCLUDE "maps/WhirlIslandB1F.asm"
-INCLUDE "maps/WhirlIslandB2F.asm"
-INCLUDE "maps/WhirlIslandCave.asm"
-INCLUDE "maps/WhirlIslandLugiaChamber.asm"
 
 
 SECTION "Cianwood Scripts", ROMX
@@ -369,18 +302,8 @@ INCLUDE "maps/EmbeddedTower.asm"
 
 SECTION "Mount Mortar Scripts", ROMX
 
-INCLUDE "maps/MountMortar1FOutside.asm"
-INCLUDE "maps/MountMortar1FInside.asm"
-INCLUDE "maps/MountMortar2FInside.asm"
-INCLUDE "maps/MountMortarB1F.asm"
-
 
 SECTION "Mahogany Scripts", ROMX
-
-INCLUDE "maps/MahoganyTown.asm"
-INCLUDE "maps/MahoganyMart1F.asm"
-INCLUDE "maps/MahoganyGym.asm"
-INCLUDE "maps/MahoganyRedGyaradosSpeechHouse.asm"
 
 
 SECTION "Lake of Rage Scripts", ROMX
@@ -392,18 +315,8 @@ INCLUDE "maps/LakeOfRageMagikarpHouse.asm"
 
 SECTION "Team Rocket Base Scripts", ROMX
 
-INCLUDE "maps/TeamRocketBaseB1F.asm"
-INCLUDE "maps/TeamRocketBaseB2F.asm"
-INCLUDE "maps/TeamRocketBaseB3F.asm"
-
 
 SECTION "Ice Path Scripts", ROMX
-
-INCLUDE "maps/IcePath1F.asm"
-INCLUDE "maps/IcePathB1F.asm"
-INCLUDE "maps/IcePathB2FMahoganySide.asm"
-INCLUDE "maps/IcePathB2FBlackthornSide.asm"
-INCLUDE "maps/IcePathB3F.asm"
 
 
 SECTION "Blackthorn Scripts", ROMX
@@ -417,24 +330,14 @@ INCLUDE "maps/MoveDeletersHouse.asm"
 
 SECTION "Dragon's Den Scripts", ROMX
 
-INCLUDE "maps/DragonsDen1F.asm"
-INCLUDE "maps/DragonsDenB1F.asm"
-INCLUDE "maps/DragonShrine.asm"
 INCLUDE "maps/BlackthornGym1F.asm" ; shares text with DragonsDen1F.asm
 INCLUDE "maps/BlackthornGym2F.asm"
 
 
 SECTION "Victory Road Scripts", ROMX
 
-INCLUDE "maps/VictoryRoad1F.asm"
-INCLUDE "maps/VictoryRoad2F.asm"
-INCLUDE "maps/VictoryRoad3F.asm"
-
 
 SECTION "Tohjo Falls Scripts", ROMX
-
-INCLUDE "maps/TohjoFalls.asm"
-INCLUDE "maps/GiovannisCave.asm"
 
 
 SECTION "Indigo Plateau Scripts", ROMX
@@ -503,9 +406,6 @@ INCLUDE "maps/PewterMuseumOfScience2F.asm"
 
 SECTION "Mount Moon Scripts", ROMX
 
-INCLUDE "maps/MountMoon1F.asm"
-INCLUDE "maps/MountMoonB1F.asm"
-INCLUDE "maps/MountMoonB2F.asm"
 INCLUDE "maps/MountMoonGiftShop.asm"
 INCLUDE "maps/MountMoonSquare.asm"
 
@@ -558,14 +458,9 @@ INCLUDE "maps/PokemonFanClub.asm"
 
 SECTION "Diglett's Cave Scripts", ROMX
 
-INCLUDE "maps/DiglettsCave.asm"
-
 
 SECTION "Rock Tunnel Scripts", ROMX
 
-INCLUDE "maps/RockTunnel1F.asm"
-INCLUDE "maps/RockTunnel2F.asm"
-INCLUDE "maps/RockTunnelB1F.asm"
 INCLUDE "maps/PowerPlant.asm"
 
 
@@ -719,7 +614,6 @@ INCLUDE "maps/FightingDojo.asm"
 INCLUDE "maps/CopycatsHouse1F.asm"
 INCLUDE "maps/CopycatsHouse2F.asm"
 INCLUDE "maps/MrPsychicsHouse.asm"
-INCLUDE "maps/Underground.asm"
 
 
 SECTION "Silph Co Scripts", ROMX
@@ -805,10 +699,6 @@ INCLUDE "maps/SeafoamIslandsB4F.asm"
 SECTION "Silver Cave Scripts", ROMX
 
 INCLUDE "maps/SilverCaveOutside.asm"
-INCLUDE "maps/SilverCaveRoom1.asm"
-INCLUDE "maps/SilverCaveRoom2.asm"
-INCLUDE "maps/SilverCaveRoom3.asm"
-INCLUDE "maps/SilverCaveItemRooms.asm"
 
 
 SECTION "Seagallop Ferry Scripts", ROMX
@@ -1007,7 +897,6 @@ SECTION "Routes 33-35 Scripts", ROMX
 INCLUDE "maps/Route33.asm"
 INCLUDE "maps/Route34.asm"
 INCLUDE "maps/Route35.asm"
-INCLUDE "maps/Route35Coast.asm"
 INCLUDE "maps/Route35GoldenrodGate.asm"
 INCLUDE "maps/Route35NationalParkGate.asm"
 INCLUDE "maps/Route36NationalParkGate.asm" ; shares text with Route35NationalParkGate.asm
@@ -1019,15 +908,10 @@ INCLUDE "maps/Route36.asm"
 INCLUDE "maps/Route36RuinsOfAlphGate.asm"
 INCLUDE "maps/Route36VioletGate.asm"
 INCLUDE "maps/Route37.asm"
-INCLUDE "maps/Route38.asm"
-INCLUDE "maps/Route38EcruteakGate.asm"
 
 
 SECTION "Routes 39-41 Scripts", ROMX
 
-INCLUDE "maps/Route39.asm"
-INCLUDE "maps/Route39Barn.asm"
-INCLUDE "maps/Route39Farmhouse.asm"
 INCLUDE "maps/Route40.asm"
 INCLUDE "maps/Route40BattleTowerGate.asm"
 INCLUDE "maps/Route41.asm"
@@ -1035,12 +919,9 @@ INCLUDE "maps/Route41.asm"
 
 SECTION "Routes 42-44 Scripts", ROMX
 
-INCLUDE "maps/Route42.asm"
-INCLUDE "maps/Route42EcruteakGate.asm"
 INCLUDE "maps/Route43.asm"
 INCLUDE "maps/Route43Gate.asm"
 INCLUDE "maps/Route43MahoganyGate.asm"
-INCLUDE "maps/Route44.asm"
 
 
 SECTION "Routes 45-47 Scripts", ROMX

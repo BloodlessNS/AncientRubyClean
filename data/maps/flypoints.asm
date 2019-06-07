@@ -13,20 +13,15 @@ Flypoints:
 	flypoint AZALEA,      AZALEA_TOWN
 	flypoint GOLDENROD,   GOLDENROD_CITY
 	flypoint ECRUTEAK,    ECRUTEAK_CITY
-	flypoint OLIVINE,     OLIVINE_CITY
 	flypoint CIANWOOD,    CIANWOOD_CITY
-	flypoint MAHOGANY,    MAHOGANY_TOWN
 	flypoint LAKE,        LAKE_OF_RAGE
 	flypoint BLACKTHORN,  BLACKTHORN_CITY
-	flypoint MT_SILVER,   SILVER_CAVE
 KANTO_FLYPOINT EQU const_value
 	flypoint PALLET,      PALLET_TOWN
 	flypoint VIRIDIAN,    VIRIDIAN_CITY
 	flypoint PEWTER,      PEWTER_CITY
-	flypoint MT_MOON,     MT_MOON
 	flypoint CERULEAN,    CERULEAN_CITY
 	flypoint VERMILION,   VERMILION_CITY
-	flypoint ROCK_TUNNEL, ROCK_TUNNEL
 	flypoint LAVENDER,    LAVENDER_TOWN
 	flypoint CELADON,     CELADON_CITY
 	flypoint SAFFRON,     SAFFRON_CITY

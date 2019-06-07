@@ -86,20 +86,8 @@ ENDM
 	connection south, Route34, ROUTE_34, 7, 0, 10
 	connection east, MagnetTunnelWest, MAGNET_TUNNEL_WEST, 0, 0, 11
 
-	map_attributes OlivineCity, OLIVINE_CITY, $35, NORTH | SOUTH | WEST
-	connection north, Route39, ROUTE_39, 5, 0, 10
-	connection south, Route35Coast, ROUTE_35_COAST, 0, -7, 32
-	connection west, Route40, ROUTE_40, 7, 0, 12
-
-	map_attributes EcruteakCity, ECRUTEAK_CITY, $5, SOUTH | WEST | EAST
+	map_attributes EcruteakCity, ECRUTEAK_CITY, $5, SOUTH
 	connection south, Route37, ROUTE_37, 5, 0, 10
-	connection west, Route38, ROUTE_38, 5, 0, 9
-	connection east, Route42, ROUTE_42, 9, 0, 9
-
-	map_attributes MahoganyTown, MAHOGANY_TOWN, $71, NORTH | WEST | EAST
-	connection north, Route43, ROUTE_43, 0, 0, 10
-	connection west, Route42, ROUTE_42, 0, 0, 9
-	connection east, Route44, ROUTE_44, 0, 0, 9
 
 	map_attributes LakeOfRage, LAKE_OF_RAGE, $5, SOUTH
 	connection south, Route43, ROUTE_43, 5, 0, 10
@@ -159,10 +147,6 @@ ENDM
 	connection north, Route36, ROUTE_36, 0, 0, 14
 	connection south, GoldenrodCity, GOLDENROD_CITY, -2, 3, 16
 
-	map_attributes Route35Coast, ROUTE_35_COAST, $35, NORTH | SOUTH
-	connection north, OlivineCity, OLIVINE_CITY, 0, 7, 32
-	connection south, GoldenrodHarbor, GOLDENROD_HARBOR, 0, 0, 24
-
 	map_attributes Route36, ROUTE_36, $5, NORTH | SOUTH | EAST
 	connection north, Route37, ROUTE_37, 12, 0, 10
 	connection south, Route35, ROUTE_35, 0, 0, 12
@@ -172,34 +156,17 @@ ENDM
 	connection north, EcruteakCity, ECRUTEAK_CITY, -3, 2, 16
 	connection south, Route36, ROUTE_36, -3, 9, 16
 
-	map_attributes Route38, ROUTE_38, $5, WEST | EAST
-	connection west, Route39, ROUTE_39, 0, 0, 12
-	connection east, EcruteakCity, ECRUTEAK_CITY, -3, 2, 15
-
-	map_attributes Route39, ROUTE_39, $5, SOUTH | EAST
-	connection south, OlivineCity, OLIVINE_CITY, -3, 2, 16
-	connection east, Route38, ROUTE_38, 0, 0, 9
-
-	map_attributes Route40, ROUTE_40, $35, SOUTH | EAST
+	map_attributes Route40, ROUTE_40, $35, SOUTH
 	connection south, Route41, ROUTE_41, -3, 12, 13
-	connection east, OlivineCity, OLIVINE_CITY, -3, 4, 12
 
 	map_attributes Route41, ROUTE_41, $35, NORTH | WEST | EAST
 	connection north, Route40, ROUTE_40, 15, 0, 10
 	connection west, CianwoodCity, CIANWOOD_CITY, 0, 0, 27
 	connection east, GoldenrodHarbor, GOLDENROD_HARBOR, 3, 0, 20
 
-	map_attributes Route42, ROUTE_42, $5, SOUTH | WEST | EAST
-	connection south, VioletOutskirts, VIOLET_OUTSKIRTS, 5, 0, 14
-	connection west, EcruteakCity, ECRUTEAK_CITY, -3, 6, 12
-	connection east, MahoganyTown, MAHOGANY_TOWN, 0, 0, 9
-
 	map_attributes Route43, ROUTE_43, $5, NORTH | SOUTH
 	connection north, LakeOfRage, LAKE_OF_RAGE, -3, 2, 16
 	connection south, MahoganyTown, MAHOGANY_TOWN, 0, 0, 10
-
-	map_attributes Route44, ROUTE_44, $71, WEST
-	connection west, MahoganyTown, MAHOGANY_TOWN, 0, 0, 9
 
 	map_attributes Route45, ROUTE_45, $71, NORTH | WEST
 	connection north, BlackthornCity, BLACKTHORN_CITY, 1, -1, 12
@@ -416,15 +383,13 @@ ENDM
 	map_attributes Route32Coast, ROUTE_32_COAST, $35, NORTH
 	connection north, CherrygroveBay, CHERRYGROVE_BAY, 0, 0, 15
 
-	map_attributes VioletOutskirts, VIOLET_OUTSKIRTS, $5, NORTH | SOUTH
-	connection north, Route42, ROUTE_42, -3, 2, 20
+	map_attributes VioletOutskirts, VIOLET_OUTSKIRTS, $5, SOUTH
 	connection south, VioletCity, VIOLET_CITY, 0, 0, 20
 
 	map_attributes RuinsOfAlphOutside, RUINS_OF_ALPH_OUTSIDE, $5, SOUTH
 	connection south, MagnetTunnelEast, MAGNET_TUNNEL_EAST, -2, 0, 10
 
-	map_attributes GoldenrodHarbor, GOLDENROD_HARBOR, $35, NORTH | WEST
-	connection north, Route35Coast, ROUTE_35_COAST, 0, 0, 24
+	map_attributes GoldenrodHarbor, GOLDENROD_HARBOR, $35, WEST
 	connection west, Route41, ROUTE_41, -3, 0, 20
 
 	map_attributes MagnetTunnelEast, MAGNET_TUNNEL_EAST, $5, NORTH | EAST
@@ -465,28 +430,6 @@ ENDM
 	map_attributes Route49, ROUTE_49, $0, EAST
 	connection east, ValenciaIsland, VALENCIA_ISLAND, 2, 0, 9
 
-	map_attributes SproutTower1F, SPROUT_TOWER_1F, $0, 0
-	map_attributes SproutTower2F, SPROUT_TOWER_2F, $0, 0
-	map_attributes SproutTower3F, SPROUT_TOWER_3F, $0, 0
-	map_attributes TinTower1F, TIN_TOWER_1F, $0, 0
-	map_attributes TinTower2F, TIN_TOWER_2F, $0, 0
-	map_attributes TinTower3F, TIN_TOWER_3F, $0, 0
-	map_attributes TinTower4F, TIN_TOWER_4F, $0, 0
-	map_attributes TinTower5F, TIN_TOWER_5F, $0, 0
-	map_attributes TinTower6F, TIN_TOWER_6F, $0, 0
-	map_attributes TinTower7F, TIN_TOWER_7F, $0, 0
-	map_attributes TinTower8F, TIN_TOWER_8F, $0, 0
-	map_attributes TinTower9F, TIN_TOWER_9F, $0, 0
-	map_attributes TinTower10F, TIN_TOWER_10F, $0, 0
-	map_attributes BurnedTower1F, BURNED_TOWER_1F, $0, 0
-	map_attributes BurnedTowerB1F, BURNED_TOWER_B1F, $9, 0
-	map_attributes NationalPark, NATIONAL_PARK, $0, 0
-	map_attributes NationalParkBugContest, NATIONAL_PARK_BUG_CONTEST, $0, 0
-	map_attributes RadioTower1F, RADIO_TOWER_1F, $0, 0
-	map_attributes RadioTower2F, RADIO_TOWER_2F, $0, 0
-	map_attributes RadioTower3F, RADIO_TOWER_3F, $0, 0
-	map_attributes RadioTower4F, RADIO_TOWER_4F, $0, 0
-	map_attributes RadioTower5F, RADIO_TOWER_5F, $0, 0
 	map_attributes RuinsOfAlphHoOhChamber, RUINS_OF_ALPH_HO_OH_CHAMBER, $0, 0
 	map_attributes RuinsOfAlphKabutoChamber, RUINS_OF_ALPH_KABUTO_CHAMBER, $0, 0
 	map_attributes RuinsOfAlphOmanyteChamber, RUINS_OF_ALPH_OMANYTE_CHAMBER, $0, 0
@@ -504,83 +447,8 @@ ENDM
 	map_attributes RuinsOfAlphAerodactylWordRoom, RUINS_OF_ALPH_AERODACTYL_WORD_ROOM, $0, 0
 	map_attributes RuinsOfAlphSinjohChamber, RUINS_OF_ALPH_SINJOH_CHAMBER, $0, 0
 	map_attributes Route22Past, ROUTE_22_PAST, $2c, 0
-	map_attributes UnionCave1F, UNION_CAVE_1F, $9, 0
-	map_attributes UnionCaveB1FNorth, UNION_CAVE_B1F_NORTH, $9, 0
-	map_attributes UnionCaveB1FSouth, UNION_CAVE_B1F_SOUTH, $9, 0
-	map_attributes UnionCaveB2F, UNION_CAVE_B2F, $9, 0
-	map_attributes SlowpokeWellB1F, SLOWPOKE_WELL_B1F, $9, 0
-	map_attributes SlowpokeWellB2F, SLOWPOKE_WELL_B2F, $9, 0
-	map_attributes OlivineLighthouse1F, OLIVINE_LIGHTHOUSE_1F, $0, 0
-	map_attributes OlivineLighthouse2F, OLIVINE_LIGHTHOUSE_2F, $0, 0
-	map_attributes OlivineLighthouse3F, OLIVINE_LIGHTHOUSE_3F, $0, 0
-	map_attributes OlivineLighthouse4F, OLIVINE_LIGHTHOUSE_4F, $0, 0
-	map_attributes OlivineLighthouse5F, OLIVINE_LIGHTHOUSE_5F, $0, 0
-	map_attributes OlivineLighthouse6F, OLIVINE_LIGHTHOUSE_6F, $0, 0
-	map_attributes OlivineLighthouseRoof, OLIVINE_LIGHTHOUSE_ROOF, $c, 0
-	map_attributes MahoganyMart1F, MAHOGANY_MART_1F, $0, 0
-	map_attributes TeamRocketBaseB1F, TEAM_ROCKET_BASE_B1F, $0, 0
-	map_attributes TeamRocketBaseB2F, TEAM_ROCKET_BASE_B2F, $0, 0
-	map_attributes TeamRocketBaseB3F, TEAM_ROCKET_BASE_B3F, $0, 0
-	map_attributes IlexForest, ILEX_FOREST, $35, 0
 	map_attributes MurkySwamp, MURKY_SWAMP, $35, 0
 	map_attributes MagnetTunnelInside, MAGNET_TUNNEL_INSIDE, $9, 0
-	map_attributes WarehouseEntrance, WAREHOUSE_ENTRANCE, $0, 0
-	map_attributes UndergroundPathSwitchRoomEntrances, UNDERGROUND_PATH_SWITCH_ROOM_ENTRANCES, $0, 0
-	map_attributes GoldenrodDeptStoreB1F, GOLDENROD_DEPT_STORE_B1F, $0, 0
-	map_attributes UndergroundWarehouse, UNDERGROUND_WAREHOUSE, $0, 0
-	map_attributes MountMortar1FOutside, MOUNT_MORTAR_1F_OUTSIDE, $9, 0
-	map_attributes MountMortar1FInside, MOUNT_MORTAR_1F_INSIDE, $9, 0
-	map_attributes MountMortar2FInside, MOUNT_MORTAR_2F_INSIDE, $9, 0
-	map_attributes MountMortarB1F, MOUNT_MORTAR_B1F, $9, 0
-	map_attributes IcePath1F, ICE_PATH_1F, $9, 0
-	map_attributes IcePathB1F, ICE_PATH_B1F, $19, 0
-	map_attributes IcePathB2FMahoganySide, ICE_PATH_B2F_MAHOGANY_SIDE, $19, 0
-	map_attributes IcePathB2FBlackthornSide, ICE_PATH_B2F_BLACKTHORN_SIDE, $19, 0
-	map_attributes IcePathB3F, ICE_PATH_B3F, $19, 0
-	map_attributes WhirlIslandNW, WHIRL_ISLAND_NW, $9, 0
-	map_attributes WhirlIslandNE, WHIRL_ISLAND_NE, $9, 0
-	map_attributes WhirlIslandSW, WHIRL_ISLAND_SW, $9, 0
-	map_attributes WhirlIslandCave, WHIRL_ISLAND_CAVE, $9, 0
-	map_attributes WhirlIslandSE, WHIRL_ISLAND_SE, $f, 0
-	map_attributes WhirlIslandB1F, WHIRL_ISLAND_B1F, $9, 0
-	map_attributes WhirlIslandB2F, WHIRL_ISLAND_B2F, $2e, 0
-	map_attributes WhirlIslandLugiaChamber, WHIRL_ISLAND_LUGIA_CHAMBER, $f, 0
-	map_attributes SilverCaveRoom1, SILVER_CAVE_ROOM_1, $9, 0
-	map_attributes SilverCaveRoom2, SILVER_CAVE_ROOM_2, $9, 0
-	map_attributes SilverCaveRoom3, SILVER_CAVE_ROOM_3, $0, 0
-	map_attributes SilverCaveItemRooms, SILVER_CAVE_ITEM_ROOMS, $9, 0
-	map_attributes DarkCaveVioletEntrance, DARK_CAVE_VIOLET_ENTRANCE, $9, 0
-	map_attributes DarkCaveBlackthornEntrance, DARK_CAVE_BLACKTHORN_ENTRANCE, $9, 0
-	map_attributes DragonsDen1F, DRAGONS_DEN_1F, $9, 0
-	map_attributes DragonsDenB1F, DRAGONS_DEN_B1F, $71, 0
-	map_attributes DragonShrine, DRAGON_SHRINE, $0, 0
-	map_attributes TohjoFalls, TOHJO_FALLS, $9, 0
-	map_attributes GiovannisCave, GIOVANNIS_CAVE, $9, 0
-	map_attributes OlivinePokeCenter1F, OLIVINE_POKECENTER_1F, $0, 0
-	map_attributes OlivineGym, OLIVINE_GYM, $0, 0
-	map_attributes OlivineTimsHouse, OLIVINE_TIMS_HOUSE, $0, 0
-	map_attributes OlivinePunishmentSpeechHouse, OLIVINE_PUNISHMENT_SPEECH_HOUSE, $0, 0
-	map_attributes OlivineGoodRodHouse, OLIVINE_GOOD_ROD_HOUSE, $0, 0
-	map_attributes OlivineCafe, OLIVINE_CAFE, $0, 0
-	map_attributes OlivineMart, OLIVINE_MART, $0, 0
-	map_attributes Route38EcruteakGate, ROUTE_38_ECRUTEAK_GATE, $0, 0
-	map_attributes Route39Barn, ROUTE_39_BARN, $0, 0
-	map_attributes Route39Farmhouse, ROUTE_39_FARMHOUSE, $0, 0
-	map_attributes MahoganyRedGyaradosSpeechHouse, MAHOGANY_RED_GYARADOS_SPEECH_HOUSE, $0, 0
-	map_attributes MahoganyGym, MAHOGANY_GYM, $0, 0
-	map_attributes MahoganyPokeCenter1F, MAHOGANY_POKECENTER_1F, $0, 0
-	map_attributes Route42EcruteakGate, ROUTE_42_ECRUTEAK_GATE, $0, 0
-	map_attributes DiglettsCave, DIGLETTS_CAVE, $9, 0
-	map_attributes MountMoon1F, MOUNT_MOON_1F, $9, 0
-	map_attributes MountMoonB1F, MOUNT_MOON_B1F, $9, 0
-	map_attributes MountMoonB2F, MOUNT_MOON_B2F, $9, 0
-	map_attributes Underground, UNDERGROUND, $0, 0
-	map_attributes RockTunnel1F, ROCK_TUNNEL_1F, $9, 0
-	map_attributes RockTunnelB1F, ROCK_TUNNEL_B1F, $9, 0
-	map_attributes RockTunnel2F, ROCK_TUNNEL_2F, $9, 0
-	map_attributes VictoryRoad1F, VICTORY_ROAD_1F, $9, 0
-	map_attributes VictoryRoad2F, VICTORY_ROAD_2F, $9, 0
-	map_attributes VictoryRoad3F, VICTORY_ROAD_3F, $9, 0
 	map_attributes EcruteakHouse, ECRUTEAK_HOUSE, $0, 0
 	map_attributes WiseTriosRoom, WISE_TRIOS_ROOM, $0, 0
 	map_attributes EcruteakPokeCenter1F, ECRUTEAK_POKECENTER_1F, $0, 0

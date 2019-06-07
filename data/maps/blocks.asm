@@ -5,9 +5,7 @@ VioletPokeCenter1F_BlockData:
 Route32PokeCenter1F_BlockData:
 AzaleaPokeCenter1F_BlockData:
 EcruteakPokeCenter1F_BlockData:
-OlivinePokeCenter1F_BlockData:
 CianwoodPokeCenter1F_BlockData:
-MahoganyPokeCenter1F_BlockData:
 BlackthornPokeCenter1F_BlockData:
 SilverCavePokeCenter1F_BlockData:
 	INCBIN "maps/JohtoPokeCenter1F.ablk.lz"
@@ -36,7 +34,6 @@ CherrygroveMart_BlockData:
 VioletMart_BlockData:
 AzaleaMart_BlockData:
 EcruteakMart_BlockData:
-OlivineMart_BlockData:
 BlackthornMart_BlockData:
 ViridianMart_BlockData:
 PewterMart_BlockData:
@@ -76,8 +73,6 @@ Route36VioletGate_BlockData:
 Route32RuinsOfAlphGate_BlockData:
 IlexForestAzaleaGate_BlockData:
 GoldenrodHarborGate_BlockData:
-Route38EcruteakGate_BlockData:
-Route42EcruteakGate_BlockData:
 	INCBIN "maps/EastWestGate.ablk.lz"
 
 Route7SaffronGate_BlockData:
@@ -98,9 +93,6 @@ Route1617Gate2F_BlockData:
 Route18Gate2F_BlockData:
 	INCBIN "maps/KantoGate2F.ablk.lz"
 
-OlivineTimsHouse_BlockData:
-OlivinePunishmentSpeechHouse_BlockData:
-OlivineGoodRodHouse_BlockData:
 GoldenrodBillsHouse_BlockData:
 GoldenrodNetBallHouse_BlockData:
 CianwoodCityPhotoStudio_BlockData:
@@ -132,7 +124,6 @@ CeladonOldManSpeechHouse_BlockData:
 CeladonDevelopmentSpeechHouse_BlockData:
 	INCBIN "maps/House2.ablk.lz"
 
-MahoganyRedGyaradosSpeechHouse_BlockData:
 BlackthornDragonSpeechHouse_BlockData:
 BlackthornEmysHouse_BlockData:
 MoveDeletersHouse_BlockData:
@@ -144,7 +135,6 @@ CianwoodLugiaSpeechHouse_BlockData:
 StatsJudgesHouse_BlockData:
 	INCBIN "maps/JohtoHouse3.ablk.lz"
 
-Route39Farmhouse_BlockData:
 LakeOfRageHiddenPowerHouse_BlockData:
 Route28FamousSpeechHouse_BlockData:
 KrissNeighborsHouse_BlockData:
@@ -236,13 +226,6 @@ CherrygroveBay_BlockData:
 Route32Coast_BlockData:
 	INCBIN "maps/Route32Coast.ablk.lz"
 
-DarkCaveVioletEntrance_BlockData:
-SilverCaveItemRooms_BlockData:
-	INCBIN "maps/DarkCaveVioletEntrance.ablk.lz"
-
-DarkCaveBlackthornEntrance_BlockData:
-	INCBIN "maps/DarkCaveBlackthornEntrance.ablk.lz"
-
 VioletGym_BlockData:
 	INCBIN "maps/VioletGym.ablk.lz"
 
@@ -251,15 +234,6 @@ VioletCity_BlockData:
 
 EarlsPokemonAcademy_BlockData:
 	INCBIN "maps/EarlsPokemonAcademy.ablk.lz"
-
-SproutTower1F_BlockData:
-	INCBIN "maps/SproutTower1F.ablk.lz"
-
-SproutTower2F_BlockData:
-	INCBIN "maps/SproutTower2F.ablk.lz"
-
-SproutTower3F_BlockData:
-	INCBIN "maps/SproutTower3F.ablk.lz"
 
 VioletOutskirts_BlockData:
 	INCBIN "maps/VioletOutskirts.ablk.lz"
@@ -312,21 +286,8 @@ MystriStage_BlockData:
 SinjohRuinsHouse_BlockData:
 	INCBIN "maps/SinjohRuinsHouse.ablk.lz"
 
-UnionCave1F_BlockData:
-GiovannisCave_BlockData:
-	INCBIN "maps/UnionCave1F.ablk.lz"
-
 
 SECTION "Map Blockdata 2", ROMX
-
-UnionCaveB1FNorth_BlockData:
-	INCBIN "maps/UnionCaveB1FNorth.ablk.lz"
-
-UnionCaveB1FSouth_BlockData:
-	INCBIN "maps/UnionCaveB1FSouth.ablk.lz"
-
-UnionCaveB2F_BlockData:
-	INCBIN "maps/UnionCaveB2F.ablk.lz"
 
 AzaleaGym_BlockData:
 	INCBIN "maps/AzaleaGym.ablk.lz"
@@ -342,15 +303,6 @@ CharcoalKiln_BlockData:
 
 KurtsHouse_BlockData:
 	INCBIN "maps/KurtsHouse.ablk.lz"
-
-SlowpokeWellB1F_BlockData:
-	INCBIN "maps/SlowpokeWellB1F.ablk.lz"
-
-SlowpokeWellB2F_BlockData:
-	INCBIN "maps/SlowpokeWellB2F.ablk.lz"
-
-IlexForest_BlockData:
-	INCBIN "maps/IlexForest.ablk.lz"
 
 MurkySwamp_BlockData:
 	INCBIN "maps/MurkySwamp.ablk.lz"
@@ -409,44 +361,17 @@ GoldenrodDeptStore5F_BlockData:
 GoldenrodDeptStore6F_BlockData:
 	INCBIN "maps/GoldenrodDeptStore6F.ablk.lz"
 
-GoldenrodDeptStoreB1F_BlockData:
-	INCBIN "maps/GoldenrodDeptStoreB1F.ablk.lz"
-
 GoldenrodDeptStoreElevator_BlockData:
 	INCBIN "maps/GoldenrodDeptStoreElevator.ablk.lz"
 
 GoldenrodDeptStoreRoof_BlockData:
 	INCBIN "maps/GoldenrodDeptStoreRoof.ablk.lz"
 
-RadioTower1F_BlockData:
-	INCBIN "maps/RadioTower1F.ablk.lz"
-
-RadioTower2F_BlockData:
-	INCBIN "maps/RadioTower2F.ablk.lz"
-
-RadioTower3F_BlockData:
-	INCBIN "maps/RadioTower3F.ablk.lz"
-
-RadioTower4F_BlockData:
-	INCBIN "maps/RadioTower4F.ablk.lz"
-
-RadioTower5F_BlockData:
-	INCBIN "maps/RadioTower5F.ablk.lz"
-
-UndergroundWarehouse_BlockData:
-	INCBIN "maps/UndergroundWarehouse.ablk.lz"
-
-UndergroundPathSwitchRoomEntrances_BlockData:
-	INCBIN "maps/UndergroundPathSwitchRoomEntrances.ablk.lz"
-
 GoldenrodMuseum1F_BlockData:
 	INCBIN "maps/GoldenrodMuseum1F.ablk.lz"
 
 GoldenrodMuseum2F_BlockData:
 	INCBIN "maps/GoldenrodMuseum2F.ablk.lz"
-
-WarehouseEntrance_BlockData:
-	INCBIN "maps/WarehouseEntrance.ablk.lz"
 
 MagnetTunnelEast_BlockData:
 	INCBIN "maps/MagnetTunnelEast.ablk.lz"
@@ -456,10 +381,6 @@ MagnetTunnelWest_BlockData:
 
 MagnetTunnelInside_BlockData:
 	INCBIN "maps/MagnetTunnelInside.ablk.lz"
-
-NationalPark_BlockData:
-NationalParkBugContest_BlockData:
-	INCBIN "maps/NationalPark.ablk.lz"
 
 EcruteakGym_BlockData:
 	INCBIN "maps/EcruteakGym.ablk.lz"
@@ -488,53 +409,8 @@ SECTION "Map Blockdata 3", ROMX
 BellchimeTrail_BlockData:
 	INCBIN "maps/BellchimeTrail.ablk.lz"
 
-TinTower1F_BlockData:
-	INCBIN "maps/TinTower1F.ablk.lz"
-
-TinTower2F_BlockData:
-	INCBIN "maps/TinTower2F.ablk.lz"
-
-TinTower3F_BlockData:
-	INCBIN "maps/TinTower3F.ablk.lz"
-
-TinTower4F_BlockData:
-	INCBIN "maps/TinTower4F.ablk.lz"
-
-TinTower5F_BlockData:
-	INCBIN "maps/TinTower5F.ablk.lz"
-
-TinTower6F_BlockData:
-	INCBIN "maps/TinTower6F.ablk.lz"
-
-TinTower7F_BlockData:
-	INCBIN "maps/TinTower7F.ablk.lz"
-
-TinTower8F_BlockData:
-	INCBIN "maps/TinTower8F.ablk.lz"
-
-TinTower9F_BlockData:
-	INCBIN "maps/TinTower9F.ablk.lz"
-
-TinTower10F_BlockData:
-	INCBIN "maps/TinTower10F.ablk.lz"
-
 TinTowerRoof_BlockData:
 	INCBIN "maps/TinTowerRoof.ablk.lz"
-
-BurnedTower1F_BlockData:
-	INCBIN "maps/BurnedTower1F.ablk.lz"
-
-BurnedTowerB1F_BlockData:
-	INCBIN "maps/BurnedTowerB1F.ablk.lz"
-
-OlivineGym_BlockData:
-	INCBIN "maps/OlivineGym.ablk.lz"
-
-OlivineCity_BlockData:
-	INCBIN "maps/OlivineCity.ablk.lz"
-
-OlivineCafe_BlockData:
-	INCBIN "maps/OlivineCafe.ablk.lz"
 
 OlivinePort_BlockData:
 	INCBIN "maps/OlivinePort.ablk.lz"
@@ -542,27 +418,6 @@ OlivinePort_BlockData:
 OlivinePortPassage_BlockData:
 VermilionPortPassage_BlockData:
 	INCBIN "maps/PortPassage.ablk.lz"
-
-OlivineLighthouse1F_BlockData:
-	INCBIN "maps/OlivineLighthouse1F.ablk.lz"
-
-OlivineLighthouse2F_BlockData:
-	INCBIN "maps/OlivineLighthouse2F.ablk.lz"
-
-OlivineLighthouse3F_BlockData:
-	INCBIN "maps/OlivineLighthouse3F.ablk.lz"
-
-OlivineLighthouse4F_BlockData:
-	INCBIN "maps/OlivineLighthouse4F.ablk.lz"
-
-OlivineLighthouse5F_BlockData:
-	INCBIN "maps/OlivineLighthouse5F.ablk.lz"
-
-OlivineLighthouse6F_BlockData:
-	INCBIN "maps/OlivineLighthouse6F.ablk.lz"
-
-OlivineLighthouseRoof_BlockData:
-	INCBIN "maps/OlivineLighthouseRoof.ablk.lz"
 
 BattleTower1F_BlockData:
 	INCBIN "maps/BattleTower1F.ablk.lz"
@@ -581,24 +436,6 @@ BattleTowerHallway_BlockData:
 
 BattleTowerOutside_BlockData:
 	INCBIN "maps/BattleTowerOutside.ablk.lz"
-
-WhirlIslandNE_BlockData:
-	INCBIN "maps/WhirlIslandNE.ablk.lz"
-
-WhirlIslandSE_BlockData:
-	INCBIN "maps/WhirlIslandSE.ablk.lz"
-
-WhirlIslandSW_BlockData:
-	INCBIN "maps/WhirlIslandSW.ablk.lz"
-
-WhirlIslandB1F_BlockData:
-	INCBIN "maps/WhirlIslandB1F.ablk.lz"
-
-WhirlIslandB2F_BlockData:
-	INCBIN "maps/WhirlIslandB2F.ablk.lz"
-
-WhirlIslandLugiaChamber_BlockData:
-	INCBIN "maps/WhirlIslandLugiaChamber.ablk.lz"
 
 CianwoodGym_BlockData:
 	INCBIN "maps/CianwoodGym.ablk.lz"
@@ -636,57 +473,14 @@ EmbeddedTower_BlockData:
 
 SECTION "Map Blockdata 4", ROMX
 
-MountMortar1FOutside_BlockData:
-	INCBIN "maps/MountMortar1FOutside.ablk.lz"
-
-MountMortar1FInside_BlockData:
-	INCBIN "maps/MountMortar1FInside.ablk.lz"
-
-MountMortar2FInside_BlockData:
-	INCBIN "maps/MountMortar2FInside.ablk.lz"
-
-MountMortarB1F_BlockData:
-	INCBIN "maps/MountMortarB1F.ablk.lz"
-
-MahoganyMart1F_BlockData:
 MountMoonGiftShop_BlockData:
 	INCBIN "maps/GiftShop.ablk.lz"
-
-MahoganyGym_BlockData:
-	INCBIN "maps/MahoganyGym.ablk.lz"
-
-MahoganyTown_BlockData:
-	INCBIN "maps/MahoganyTown.ablk.lz"
 
 LakeOfRage_BlockData:
 	INCBIN "maps/LakeOfRage.ablk.lz"
 
 LakeOfRageFlooded_BlockData:
 	INCBIN "maps/LakeOfRageFlooded.ablk.lz"
-
-TeamRocketBaseB1F_BlockData:
-	INCBIN "maps/TeamRocketBaseB1F.ablk.lz"
-
-TeamRocketBaseB2F_BlockData:
-	INCBIN "maps/TeamRocketBaseB2F.ablk.lz"
-
-TeamRocketBaseB3F_BlockData:
-	INCBIN "maps/TeamRocketBaseB3F.ablk.lz"
-
-IcePath1F_BlockData:
-	INCBIN "maps/IcePath1F.ablk.lz"
-
-IcePathB1F_BlockData:
-	INCBIN "maps/IcePathB1F.ablk.lz"
-
-IcePathB2FMahoganySide_BlockData:
-	INCBIN "maps/IcePathB2FMahoganySide.ablk.lz"
-
-IcePathB2FBlackthornSide_BlockData:
-	INCBIN "maps/IcePathB2FBlackthornSide.ablk.lz"
-
-IcePathB3F_BlockData:
-	INCBIN "maps/IcePathB3F.ablk.lz"
 
 BlackthornGym1F_BlockData:
 	INCBIN "maps/BlackthornGym1F.ablk.lz"
@@ -696,24 +490,6 @@ BlackthornGym2F_BlockData:
 
 BlackthornCity_BlockData:
 	INCBIN "maps/BlackthornCity.ablk.lz"
-
-DragonsDenB1F_BlockData:
-	INCBIN "maps/DragonsDenB1F.ablk.lz"
-
-DragonShrine_BlockData:
-	INCBIN "maps/DragonShrine.ablk.lz"
-
-VictoryRoad1F_BlockData:
-	INCBIN "maps/VictoryRoad1F.ablk.lz"
-
-VictoryRoad2F_BlockData:
-	INCBIN "maps/VictoryRoad2F.ablk.lz"
-
-VictoryRoad3F_BlockData:
-	INCBIN "maps/VictoryRoad3F.ablk.lz"
-
-TohjoFalls_BlockData:
-	INCBIN "maps/TohjoFalls.ablk.lz"
 
 IndigoPlateau_BlockData:
 	INCBIN "maps/IndigoPlateau.ablk.lz"
@@ -806,15 +582,6 @@ PewterMuseumOfScience1F_BlockData:
 PewterMuseumOfScience2F_BlockData:
 	INCBIN "maps/PewterMuseumOfScience2F.ablk.lz"
 
-MountMoon1F_BlockData:
-	INCBIN "maps/MountMoon1F.ablk.lz"
-
-MountMoonB1F_BlockData:
-	INCBIN "maps/MountMoonB1F.ablk.lz"
-
-MountMoonB2F_BlockData:
-	INCBIN "maps/MountMoonB2F.ablk.lz"
-
 MountMoonSquare_BlockData:
 	INCBIN "maps/MountMoonSquare.ablk.lz"
 
@@ -855,18 +622,6 @@ PokemonFanClub_BlockData:
 SafariZoneWardensHome_BlockData:
 	INCBIN "maps/PokemonFanClub.ablk.lz"
 
-DiglettsCave_BlockData:
-	INCBIN "maps/DiglettsCave.ablk.lz"
-
-RockTunnel1F_BlockData:
-	INCBIN "maps/RockTunnel1F.ablk.lz"
-
-RockTunnel2F_BlockData:
-	INCBIN "maps/RockTunnel2F.ablk.lz"
-
-RockTunnelB1F_BlockData:
-	INCBIN "maps/RockTunnelB1F.ablk.lz"
-
 PowerPlant_BlockData:
 	INCBIN "maps/PowerPlant.ablk.lz"
 
@@ -875,7 +630,6 @@ SeafoamIslands1F_BlockData:
 	INCBIN "maps/DimCave1F.ablk.lz"
 
 DimCave2F_BlockData:
-WhirlIslandNW_BlockData:
 	INCBIN "maps/DimCave2F.ablk.lz"
 
 DimCave3F_BlockData:
@@ -1080,9 +834,6 @@ CopycatsHouse1F_BlockData:
 CopycatsHouse2F_BlockData:
 	INCBIN "maps/CopycatsHouse2F.ablk.lz"
 
-Underground_BlockData:
-	INCBIN "maps/Underground.ablk.lz"
-
 PokemonTrainerFanClub_BlockData:
 	INCBIN "maps/PokemonTrainerFanClub.ablk.lz"
 
@@ -1183,15 +934,6 @@ SeafoamIslandsB4F_BlockData:
 SilverCaveOutside_BlockData:
 	INCBIN "maps/SilverCaveOutside.ablk.lz"
 
-SilverCaveRoom1_BlockData:
-	INCBIN "maps/SilverCaveRoom1.ablk.lz"
-
-SilverCaveRoom2_BlockData:
-	INCBIN "maps/SilverCaveRoom2.ablk.lz"
-
-SilverCaveRoom3_BlockData:
-	INCBIN "maps/SilverCaveRoom3.ablk.lz"
-
 SeagallopFerryVermilionGate_BlockData:
 SeagallopFerryShamoutiGate_BlockData:
 SeagallopFerryNavelGate_BlockData:
@@ -1269,8 +1011,6 @@ NavelRockOutside_BlockData:
 	INCBIN "maps/NavelRockOutside.ablk.lz"
 
 NavelRockInside_BlockData:
-DragonsDen1F_BlockData:
-WhirlIslandCave_BlockData:
 HiddenCaveGrotto_BlockData:
 	INCBIN "maps/NavelRockInside.ablk.lz"
 
@@ -1424,9 +1164,6 @@ SECTION "Map Blockdata 9", ROMX
 Route35_BlockData:
 	INCBIN "maps/Route35.ablk.lz"
 
-Route35Coast_BlockData:
-	INCBIN "maps/Route35Coast.ablk.lz"
-
 Route35NationalParkGate_BlockData:
 	INCBIN "maps/Route35NationalParkGate.ablk.lz"
 
@@ -1439,32 +1176,17 @@ Route36NationalParkGate_BlockData:
 Route37_BlockData:
 	INCBIN "maps/Route37.ablk.lz"
 
-Route38_BlockData:
-	INCBIN "maps/Route38.ablk.lz"
-
-Route39_BlockData:
-	INCBIN "maps/Route39.ablk.lz"
-
-Route39Barn_BlockData:
-	INCBIN "maps/Route39Barn.ablk.lz"
-
 Route40_BlockData:
 	INCBIN "maps/Route40.ablk.lz"
 
 Route41_BlockData:
 	INCBIN "maps/Route41.ablk.lz"
 
-Route42_BlockData:
-	INCBIN "maps/Route42.ablk.lz"
-
 Route43_BlockData:
 	INCBIN "maps/Route43.ablk.lz"
 
 Route43Raining_BlockData:
 	INCBIN "maps/Route43Raining.ablk.lz"
-
-Route44_BlockData:
-	INCBIN "maps/Route44.ablk.lz"
 
 Route45_BlockData:
 	INCBIN "maps/Route45.ablk.lz"
