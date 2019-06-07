@@ -1452,9 +1452,9 @@ CheckCanLearnMoveTutorMove: ; 492b9
 	ld de, SFX_WRONG
 	call PlaySFX
 	pop de
-	ld a, BANK(MoveReminderNoMovesText)
-	ld hl, MoveReminderNoMovesText
-	call FarPrintText
+;	ld a, BANK(MoveReminderNoMovesText)
+;	ld hl, MoveReminderNoMovesText
+;	call FarPrintText
 	jr .didnt_learn
 
 .can_remind

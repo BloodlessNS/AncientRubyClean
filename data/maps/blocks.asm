@@ -4,9 +4,7 @@ CherrygrovePokeCenter1F_BlockData:
 VioletPokeCenter1F_BlockData:
 Route32PokeCenter1F_BlockData:
 AzaleaPokeCenter1F_BlockData:
-EcruteakPokeCenter1F_BlockData:
 CianwoodPokeCenter1F_BlockData:
-BlackthornPokeCenter1F_BlockData:
 SilverCavePokeCenter1F_BlockData:
 	INCBIN "maps/JohtoPokeCenter1F.ablk.lz"
 
@@ -33,8 +31,6 @@ KantoPokeCenter2F_BlockData:
 CherrygroveMart_BlockData:
 VioletMart_BlockData:
 AzaleaMart_BlockData:
-EcruteakMart_BlockData:
-BlackthornMart_BlockData:
 ViridianMart_BlockData:
 PewterMart_BlockData:
 CeruleanMart_BlockData:
@@ -48,7 +44,6 @@ GenericMart_BlockData:: ; used by tilesets/palettes.asm:LoadSpecialMapPalette
 Route2946Gate_BlockData:
 Route34IlexForestGate_BlockData:
 Route35GoldenrodGate_BlockData:
-Route36RuinsOfAlphGate_BlockData:
 Route40BattleTowerGate_BlockData:
 YellowForestGate_BlockData:
 Route43Gate_BlockData:
@@ -69,7 +64,6 @@ Route12Gate_BlockData:
 	INCBIN "maps/KantoNorthSouthGate1F.ablk.lz"
 
 Route31VioletGate_BlockData:
-Route36VioletGate_BlockData:
 Route32RuinsOfAlphGate_BlockData:
 IlexForestAzaleaGate_BlockData:
 GoldenrodHarborGate_BlockData:
@@ -124,9 +118,6 @@ CeladonOldManSpeechHouse_BlockData:
 CeladonDevelopmentSpeechHouse_BlockData:
 	INCBIN "maps/House2.ablk.lz"
 
-BlackthornDragonSpeechHouse_BlockData:
-BlackthornEmysHouse_BlockData:
-MoveDeletersHouse_BlockData:
 LakeOfRageMagikarpHouse_BlockData:
 GoldenrodNameRater_BlockData:
 GoldenrodBandHouse_BlockData:
@@ -142,13 +133,8 @@ Route30BerrySpeechHouse_BlockData:
 ValenciaHouse_BlockData:
 	INCBIN "maps/JohtoHouse4.ablk.lz"
 
-EcruteakLugiaSpeechHouse_BlockData:
-EcruteakItemfinderHouse_BlockData:
-EcruteakCherishBallHouse_BlockData:
-EcruteakDestinyKnotHouse_BlockData:
 VioletNicknameSpeechHouse_BlockData:
 VioletOnixTradeHouse_BlockData:
-ValeriesHouse_BlockData:
 	INCBIN "maps/TraditionalHouse.ablk.lz"
 
 
@@ -382,21 +368,6 @@ MagnetTunnelWest_BlockData:
 MagnetTunnelInside_BlockData:
 	INCBIN "maps/MagnetTunnelInside.ablk.lz"
 
-EcruteakGym_BlockData:
-	INCBIN "maps/EcruteakGym.ablk.lz"
-
-EcruteakCity_BlockData:
-	INCBIN "maps/EcruteakCity.ablk.lz"
-
-EcruteakHouse_BlockData:
-	INCBIN "maps/EcruteakHouse.ablk.lz"
-
-DanceTheatre_BlockData:
-	INCBIN "maps/DanceTheatre.ablk.lz"
-
-WiseTriosRoom_BlockData:
-	INCBIN "maps/WiseTriosRoom.ablk.lz"
-
 EcruteakShrineOutside_BlockData:
 	INCBIN "maps/EcruteakShrineOutside.ablk.lz"
 
@@ -481,15 +452,6 @@ LakeOfRage_BlockData:
 
 LakeOfRageFlooded_BlockData:
 	INCBIN "maps/LakeOfRageFlooded.ablk.lz"
-
-BlackthornGym1F_BlockData:
-	INCBIN "maps/BlackthornGym1F.ablk.lz"
-
-BlackthornGym2F_BlockData:
-	INCBIN "maps/BlackthornGym2F.ablk.lz"
-
-BlackthornCity_BlockData:
-	INCBIN "maps/BlackthornCity.ablk.lz"
 
 IndigoPlateau_BlockData:
 	INCBIN "maps/IndigoPlateau.ablk.lz"
@@ -1167,15 +1129,6 @@ Route35_BlockData:
 Route35NationalParkGate_BlockData:
 	INCBIN "maps/Route35NationalParkGate.ablk.lz"
 
-Route36_BlockData:
-	INCBIN "maps/Route36.ablk.lz"
-
-Route36NationalParkGate_BlockData:
-	INCBIN "maps/Route36NationalParkGate.ablk.lz"
-
-Route37_BlockData:
-	INCBIN "maps/Route37.ablk.lz"
-
 Route40_BlockData:
 	INCBIN "maps/Route40.ablk.lz"
 
@@ -1187,12 +1140,6 @@ Route43_BlockData:
 
 Route43Raining_BlockData:
 	INCBIN "maps/Route43Raining.ablk.lz"
-
-Route45_BlockData:
-	INCBIN "maps/Route45.ablk.lz"
-
-Route46_BlockData:
-	INCBIN "maps/Route46.ablk.lz"
 
 Route47_BlockData:
 	INCBIN "maps/Route47.ablk.lz"

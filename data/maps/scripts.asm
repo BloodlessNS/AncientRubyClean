@@ -3,13 +3,11 @@ SECTION "Pokemon Center Scripts 1", ROMX
 INCLUDE "maps/CherrygrovePokeCenter1F.asm"
 INCLUDE "maps/VioletPokeCenter1F.asm"
 INCLUDE "maps/AzaleaPokeCenter1F.asm"
-INCLUDE "maps/EcruteakPokeCenter1F.asm"
 INCLUDE "maps/CianwoodPokeCenter1F.asm"
 
 
 SECTION "Pokemon Center Scripts 2", ROMX
 
-INCLUDE "maps/BlackthornPokeCenter1F.asm"
 INCLUDE "maps/IndigoPlateauPokecenter1F.asm"
 INCLUDE "maps/ViridianPokeCenter1F.asm"
 INCLUDE "maps/PewterPokeCenter1F.asm"
@@ -221,8 +219,6 @@ SECTION "Radio Tower Scripts", ROMX
 
 SECTION "Underground Warehouse Scripts", ROMX
 
-INCLUDE "maps/WarehouseEntrance.asm"
-
 
 SECTION "Magnet Tunnel Scripts", ROMX
 
@@ -236,23 +232,11 @@ SECTION "National Park Scripts", ROMX
 
 SECTION "Ecruteak Scripts", ROMX
 
-INCLUDE "maps/EcruteakCity.asm"
-INCLUDE "maps/EcruteakMart.asm"
-INCLUDE "maps/EcruteakGym.asm"
-INCLUDE "maps/EcruteakHouse.asm"
-INCLUDE "maps/EcruteakItemfinderHouse.asm"
-INCLUDE "maps/EcruteakLugiaSpeechHouse.asm"
-INCLUDE "maps/DanceTheatre.asm"
-INCLUDE "maps/WiseTriosRoom.asm"
-
 
 SECTION "Ecruteak Scripts 2", ROMX
 
 INCLUDE "maps/EcruteakShrineOutside.asm"
 INCLUDE "maps/EcruteakShrineInside.asm"
-INCLUDE "maps/EcruteakCherishBallHouse.asm"
-INCLUDE "maps/EcruteakDestinyKnotHouse.asm"
-INCLUDE "maps/ValeriesHouse.asm"
 INCLUDE "maps/BellchimeTrail.asm"
 
 
@@ -321,17 +305,8 @@ SECTION "Ice Path Scripts", ROMX
 
 SECTION "Blackthorn Scripts", ROMX
 
-INCLUDE "maps/BlackthornCity.asm"
-INCLUDE "maps/BlackthornMart.asm"
-INCLUDE "maps/BlackthornDragonSpeechHouse.asm"
-INCLUDE "maps/BlackthornEmysHouse.asm"
-INCLUDE "maps/MoveDeletersHouse.asm"
-
 
 SECTION "Dragon's Den Scripts", ROMX
-
-INCLUDE "maps/BlackthornGym1F.asm" ; shares text with DragonsDen1F.asm
-INCLUDE "maps/BlackthornGym2F.asm"
 
 
 SECTION "Victory Road Scripts", ROMX
@@ -899,15 +874,9 @@ INCLUDE "maps/Route34.asm"
 INCLUDE "maps/Route35.asm"
 INCLUDE "maps/Route35GoldenrodGate.asm"
 INCLUDE "maps/Route35NationalParkGate.asm"
-INCLUDE "maps/Route36NationalParkGate.asm" ; shares text with Route35NationalParkGate.asm
 
 
 SECTION "Routes 36-38 Scripts", ROMX
-
-INCLUDE "maps/Route36.asm"
-INCLUDE "maps/Route36RuinsOfAlphGate.asm"
-INCLUDE "maps/Route36VioletGate.asm"
-INCLUDE "maps/Route37.asm"
 
 
 SECTION "Routes 39-41 Scripts", ROMX
@@ -925,9 +894,6 @@ INCLUDE "maps/Route43MahoganyGate.asm"
 
 
 SECTION "Routes 45-47 Scripts", ROMX
-
-INCLUDE "maps/Route45.asm"
-INCLUDE "maps/Route46.asm"
 INCLUDE "maps/Route47.asm"
 
 

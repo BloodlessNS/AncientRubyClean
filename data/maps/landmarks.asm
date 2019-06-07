@@ -28,9 +28,6 @@ Landmarks: ; 0x1ca8c3
 	landmark  52, 108, GoldenrodHarborName
 	landmark  76, 108, MagnetTunnelName
 	landmark  60,  92, Route35Name
-	landmark  72,  76, Route36Name
-	landmark  76,  68, Route37Name
-	landmark  76,  60, EcruteakCityName
 	landmark  77,  58, BellchimeTrailName
 	landmark  36,  80, Route40Name
 	landmark  36,  68, BattleTowerName
@@ -47,10 +44,7 @@ Landmarks: ; 0x1ca8c3
 	landmark 116,  52, Route43Name
 	landmark 116,  44, LakeOfRageName
 	landmark 136,  56, IcePathName
-	landmark 140,  60, BlackthornCityName
-	landmark 140,  80, Route45Name
 	landmark 120,  84, DarkCaveName
-	landmark 132, 104, Route46Name
 	landmark 110, 140, FastShipName
 	landmark 128,  44, SinjohRuinsName
 	landmark 128,  44, MystriStageName
@@ -133,9 +127,7 @@ CherrygroveCityName:   db "C","h","e","r","r","y","g","r","o","v","e","¯","C","
 VioletCityName:        db "V","i","o","l","e","t"," ","C","i","t","y","@"
 AzaleaTownName:        db "A","z","a","l","e","a"," ","T","o","w","n","@"
 GoldenrodCityName:     db "G","o","l","d","e","n","r","o","d","¯","C","i","t","y","@"
-EcruteakCityName:      db "E","c","r","u","t","e","a","k","¯","C","i","t","y","@"
 CianwoodCityName:      db "C","i","a","n","w","o","o","d","¯","C","i","t","y","@"
-BlackthornCityName:    db "B","l","a","c","k","t","h","o","r","n","¯","C","i","t","y","@"
 LakeOfRageName:        db "L","a","k","e"," ","o","f","¯","R","a","g","e","@"
 VioletOutskirtsName:   db "V","i","o","l","e","t","¯","O","u","t","s","k","i","r","t","s","@"
 RuinsOfAlphName:       db "R","u","i","n","s","¯","o","f"," ","A","l","p","h","@"
@@ -204,13 +196,9 @@ Route32Name:           db "R","o","u","t","e"," ","3","2","@"
 Route33Name:           db "R","o","u","t","e"," ","3","3","@"
 Route34Name:           db "R","o","u","t","e"," ","3","4","@"
 Route35Name:           db "R","o","u","t","e"," ","3","5","@"
-Route36Name:           db "R","o","u","t","e"," ","3","6","@"
-Route37Name:           db "R","o","u","t","e"," ","3","7","@"
 Route40Name:           db "R","o","u","t","e"," ","4","0","@"
 Route41Name:           db "R","o","u","t","e"," ","4","1","@"
 Route43Name:           db "R","o","u","t","e"," ","4","3","@"
-Route45Name:           db "R","o","u","t","e"," ","4","5","@"
-Route46Name:           db "R","o","u","t","e"," ","4","6","@"
 Route47Name:           db "R","o","u","t","e"," ","4","7","@"
 Route48Name:           db "R","o","u","t","e"," ","4","8","@"
 DarkCaveName:          db "D","a","r","k"," ","C","a","v","e","@"

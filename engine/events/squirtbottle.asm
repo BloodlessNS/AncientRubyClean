@@ -11,7 +11,6 @@ _Squirtbottle: ; 50730
 	special UpdateTimePals
 	callasm .CheckCanUseSquirtbottle
 	iffalse .NothingHappenedScript
-	farjump WateredWeirdTreeScript
 ; 0x5074b
 
 .NothingHappenedScript: ; 0x5074b

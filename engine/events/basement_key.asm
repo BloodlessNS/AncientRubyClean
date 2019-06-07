@@ -30,5 +30,4 @@ _BasementKey: ; 507b4
 
 .BasementKeyScript: ; 0x507e1
 	closetext
-	farjump BasementDoorScript
 ; 0x507e6

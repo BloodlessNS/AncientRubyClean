@@ -283,7 +283,7 @@ LoadSpecialMapPalette: ; 494ac
 	ld a, [wMapNumber]
 	cp MAP_DRAGON_SHRINE
 	jp nz, .do_nothing
-	ld hl, DragonShrinePalette
+	ld hl, LightningIslandPalette
 	jp .load_eight_bg_palettes
 
 .maybe_lightning_island_or_magnet_tunnel
@@ -619,9 +619,6 @@ INCLUDE "maps/OaksLab.pal"
 
 IvysLabPalette:
 INCLUDE "maps/IvysLab.pal"
-
-DragonShrinePalette:
-INCLUDE "maps/DragonShrine.pal"
 
 LightningIslandPalette:
 INCLUDE "maps/LightningIsland.pal"

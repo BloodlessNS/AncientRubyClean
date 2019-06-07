@@ -12,10 +12,8 @@ Flypoints:
 	flypoint UNION_CAVE,  UNION_CAVE
 	flypoint AZALEA,      AZALEA_TOWN
 	flypoint GOLDENROD,   GOLDENROD_CITY
-	flypoint ECRUTEAK,    ECRUTEAK_CITY
 	flypoint CIANWOOD,    CIANWOOD_CITY
 	flypoint LAKE,        LAKE_OF_RAGE
-	flypoint BLACKTHORN,  BLACKTHORN_CITY
 KANTO_FLYPOINT EQU const_value
 	flypoint PALLET,      PALLET_TOWN
 	flypoint VIRIDIAN,    VIRIDIAN_CITY
