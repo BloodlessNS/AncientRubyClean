@@ -169,11 +169,20 @@ ChrTrnPacket:
 PctTrnPacket:
 	db $a1, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00
 
+
 SGBBorderMap:
 INCBIN "gfx/sgb/sgb_border.bin"
 
+if DEF(SAPPHIRE)
+SGBBorderPalettes:
+INCLUDE "gfx/sgb/sgb_border_sapphire.pal"
+
+SGBBorderGraphics:
+INCBIN "gfx/sgb/sgb_border_sapphire.2bpp"
+else
 SGBBorderPalettes:
 INCLUDE "gfx/sgb/sgb_border.pal"
 
 SGBBorderGraphics:
 INCBIN "gfx/sgb/sgb_border.2bpp"
+endc
