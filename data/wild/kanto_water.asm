@@ -1,11 +1,5 @@
 ; Kanto Pokémon in water
 
-	map_id TOHJO_FALLS
-	db 4 percent ; encounter rate
-	db 20, POLIWAG
-	db 20, SLOWPOKE
-	db 20, POLIWHIRL
-
 	map_id VERMILION_PORT
 	db 2 percent ; encounter rate
 	db 45, TENTACOOL

@@ -629,10 +629,6 @@ CheckFlyAllowedOnMap:
 	jr z, .celadon_mansion_roof_group
 	cp GROUP_TIN_TOWER_ROOF
 	jr z, .tin_tower_roof_group
-	cp GROUP_OLIVINE_LIGHTHOUSE_ROOF
-	ret nz
-	ld a, [wMapNumber]
-	cp MAP_OLIVINE_LIGHTHOUSE_ROOF
 	ret
 .goldenrod_dept_store_roof_group
 	ld a, [wMapNumber]

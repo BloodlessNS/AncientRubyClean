@@ -91,8 +91,6 @@ LoadSpecialMapPalette: ; 494ac
 	jp z, .maybe_celadon_mansion_roof
 	cp TILESET_MART
 	jp z, .maybe_goldenrod_dept_store_roof
-	cp TILESET_LIGHTHOUSE
-	jp z, .maybe_olivine_lighthouse_roof
 	cp TILESET_HOME_DECOR_STORE
 	jp z, .maybe_celadon_home_decor_store_4f
 	cp TILESET_JOHTO_TRADITIONAL
@@ -177,9 +175,6 @@ LoadSpecialMapPalette: ; 494ac
 
 .radio_towers
 	ld hl, RadioTowerPalette
-	ld a, [wMapGroup]
-	cp GROUP_RADIO_TOWER_1F
-	jp z, .load_eight_bg_palettes
 	ld hl, HauntedRadioTowerPalette
 	ld a, [wMapNumber]
 	cp MAP_HAUNTED_RADIO_TOWER_2F
@@ -277,12 +272,6 @@ LoadSpecialMapPalette: ; 494ac
 	jp .load_eight_bg_palettes
 
 .not_ivys_lab
-	ld a, [wMapGroup]
-	cp GROUP_DRAGON_SHRINE
-	jp nz, .do_nothing
-	ld a, [wMapNumber]
-	cp MAP_DRAGON_SHRINE
-	jp nz, .do_nothing
 	ld hl, LightningIslandPalette
 	jp .load_eight_bg_palettes
 
@@ -337,11 +326,6 @@ LoadSpecialMapPalette: ; 494ac
 	jp .load_eight_bg_palettes
 
 .maybe_tin_tower_roof
-	ld a, [wMapGroup]
-	cp GROUP_TIN_TOWER_ROOF
-	jp nz, .do_nothing
-	ld a, [wMapNumber]
-	cp MAP_TIN_TOWER_ROOF
 	jp nz, .do_nothing
 	ld hl, TinTowerRoofPalette
 	jp .load_eight_time_of_day_bg_palettes
@@ -386,16 +370,6 @@ LoadSpecialMapPalette: ; 494ac
 	ld a, [wMapNumber]
 	cp MAP_GOLDENROD_DEPT_STORE_ROOF
 	jp nz, .load_eight_bg_palettes
-	ld hl, GoldenrodDeptStoreRoofPalette
-	jp .load_eight_time_of_day_bg_palettes
-
-.maybe_olivine_lighthouse_roof
-	ld a, [wMapGroup]
-	cp GROUP_OLIVINE_LIGHTHOUSE_ROOF
-	jp nz, .do_nothing
-	ld a, [wMapNumber]
-	cp MAP_OLIVINE_LIGHTHOUSE_ROOF
-	jp nz, .do_nothing
 	ld hl, GoldenrodDeptStoreRoofPalette
 	jp .load_eight_time_of_day_bg_palettes
 
@@ -857,27 +831,8 @@ LoadSpecialMapOBPalette:
 	jr .load_tree_palette
 
 .not_lightning_island:
-	ld a, [wMapGroup]
-	cp GROUP_ROCK_TUNNEL_2F
-	jr nz, .not_rock_tunnel_2f
-	ld a, [wMapNumber]
-	cp MAP_ROCK_TUNNEL_2F
-	jr nz, .not_rock_tunnel_2f
 	ld hl, RockTunnelOBPalette_Tree
 	jp .load_tree_palette
-
-.not_rock_tunnel_2f:
-	ld a, [wMapGroup]
-	cp GROUP_LYRAS_HOUSE_2F ; GROUP_KRISS_HOUSE_2F
-	jr nz, .not_lyras_house_2f_or_kriss_house_2f
-	ld a, [wMapNumber]
-	cp MAP_LYRAS_HOUSE_2F
-	jr nz, .not_lyras_house_2f
-	ld hl, LyrasHouse2FOBPalette_Rock
-	jp .load_rock_palette
-.not_lyras_house_2f
-	cp MAP_KRISS_HOUSE_2F
-	jp z, .load_party_mon_palettes
 
 .not_lyras_house_2f_or_kriss_house_2f:
 	ld a, [wMapGroup]

@@ -527,7 +527,6 @@ ENDM
 	music_map QUIET_CAVE_B2F, GetMapHeaderMusic
 	music_map QUIET_CAVE_B3F, GetMapHeaderMusic
 	music_map SCARY_CAVE_SHIPWRECK, GetMapHeaderMusic
-	music_map WHIRL_ISLAND_LUGIA_CHAMBER, GetMapHeaderMusic
 	music_map TIN_TOWER_ROOF, GetMapHeaderMusic
 	music_map ROUTE_16_SOUTH, GetCyclingRoadMusic
 	music_map ROUTE_17, GetCyclingRoadMusic

@@ -399,7 +399,6 @@ UnknownScript_0xbd0ef:
 	farjump UnknownScript_0xa08f8
 
 UnknownScript_0xbd0f3:
-	landmarktotext NATIONAL_PARK, $2
 	farjump UnknownScript_0xa0a2d
 
 JackPhoneScript2:
@@ -423,7 +422,6 @@ UnknownScript_0xbd12a:
 	setflag ENGINE_JACK_MONDAY_MORNING
 
 UnknownScript_0xbd12d:
-	landmarktotext NATIONAL_PARK, $2
 	setflag ENGINE_JACK
 	farjump UnknownScript_0xa0376
 
@@ -443,7 +441,6 @@ BeverlyPhoneScript1:
 	farjump UnknownScript_0xa0900
 
 UnknownScript_0xbd151:
-	landmarktotext NATIONAL_PARK, $2
 	farjump UnknownScript_0xa0aa5
 
 BeverlyPhoneScript2:
@@ -459,7 +456,6 @@ UnknownScript_0xbd16e:
 
 UnknownScript_0xbd172:
 	setflag ENGINE_BEVERLY_HAS_NUGGET
-	landmarktotext NATIONAL_PARK, $2
 	farjump UnknownScript_0xa061e
 
 ; Huey
@@ -1084,8 +1080,6 @@ UnknownScript_0xbd6a6:
 	checkflag ENGINE_DUNSPARCE_SWARM
 	iftrue UnknownScript_0xbd6bd
 	setflag ENGINE_DUNSPARCE_SWARM
-	pokenamemem DUNSPARCE, $1
-	swarm SWARM_DUNSPARCE, DARK_CAVE_VIOLET_ENTRANCE
 	landmarktotext DARK_CAVE, $2
 	farjump UnknownScript_0xa05de
 
@@ -1560,11 +1554,9 @@ UnknownScript_0xbdad1:
 	farjump UnknownScript_0xa0990
 
 UnknownScript_0xbdad5:
-	landmarktotext ROUTE_42, $2
 	farjump UnknownScript_0xa0a82
 
 UnknownScript_0xbdadc:
-	landmarktotext ROUTE_42, $2
 	farjump UnknownScript_0xa0add
 
 TullyPhoneScript2:
@@ -1594,13 +1586,11 @@ UnknownScript_0xbdb1f:
 	setflag ENGINE_TULLY_SUNDAY_NIGHT
 
 UnknownScript_0xbdb22:
-	landmarktotext ROUTE_42, $2
 	setflag ENGINE_TULLY
 	farjump UnknownScript_0xa0376
 
 UnknownScript_0xbdb2c:
 	setflag ENGINE_TULLY_HAS_WATER_STONE
-	landmarktotext ROUTE_42, $2
 	farjump UnknownScript_0xa05e6
 
 BrentPhoneScript1:
@@ -1765,7 +1755,6 @@ UnknownScript_0xbdc92:
 	farjump UnknownScript_0xa09a8
 
 UnknownScript_0xbdc96:
-	landmarktotext ROUTE_44, $2
 	farjump UnknownScript_0xa0a91
 
 VancePhoneScript2:
@@ -1786,7 +1775,6 @@ UnknownScript_0xbdcc1:
 	setflag ENGINE_VANCE_WEDNESDAY_NIGHT
 
 UnknownScript_0xbdcc4:
-	landmarktotext ROUTE_44, $2
 	setflag ENGINE_VANCE
 	farjump UnknownScript_0xa0376
 
@@ -1808,11 +1796,9 @@ UnknownScript_0xbdcf3:
 	farjump UnknownScript_0xa09b0
 
 UnknownScript_0xbdcf7:
-	landmarktotext ROUTE_44, $2
 	farjump UnknownScript_0xa0a96
 
 UnknownScript_0xbdcfe:
-	landmarktotext ROUTE_44, $2
 	farjump UnknownScript_0xa0aed
 
 WiltonPhoneScript2:
@@ -1836,13 +1822,11 @@ UnknownScript_0xbdd33:
 	setflag ENGINE_WILTON_THRUSDAY_MORNING
 
 UnknownScript_0xbdd36:
-	landmarktotext ROUTE_44, $2
 	setflag ENGINE_WILTON
 	farjump UnknownScript_0xa0376
 
 UnknownScript_0xbdd40:
 	setflag ENGINE_WILTON_HAS_ITEM
-	landmarktotext ROUTE_44, $2
 	clearevent EVENT_WILTON_HAS_ULTRA_BALL
 	clearevent EVENT_WILTON_HAS_GREAT_BALL
 	clearevent EVENT_WILTON_HAS_POKE_BALL

@@ -73,10 +73,10 @@ UnknownScript_0x1a001e:
 	clearevent EVENT_SAW_SUICUNE_ON_ROUTE_42
 	checkevent EVENT_GOT_HM05_WHIRLPOOL
 	iftrue .NoLyra
-	setmapscene ROUTE_42, $1
+;	setmapscene ROUTE_42, $1
 	jump .Continue
 .NoLyra
-	setmapscene ROUTE_42, $2
+;	setmapscene ROUTE_42, $2
 .Continue
 	checkevent EVENT_BEAT_EUSINE
 	iftrue .Done

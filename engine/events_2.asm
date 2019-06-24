@@ -103,8 +103,6 @@ ReturnFromMapSetupScript:: ; b8000
 	ret z
 	cp LAV_RADIO_TOWER
 	ret z
-	cp UNDERGROUND
-	ret z
 	cp POWER_PLANT
 	ret z
 	cp POKEMON_MANSION

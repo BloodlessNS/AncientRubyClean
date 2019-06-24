@@ -14,9 +14,9 @@ PhoneContacts:
 	phone TRAINER_NONE, PHONECONTACT_BILL,     N_A,                       7, BillPhoneScript1,    0, BillPhoneScript2
 	phone TRAINER_NONE, PHONECONTACT_ELM,      ELMS_LAB,                  7, ElmPhoneScript1,     0, ElmPhoneScript2
 	phone TRAINER_NONE, PHONECONTACT_LYRA,     LYRAS_HOUSE_1F,            7, LyraPhoneScript,     0, LyraPhoneScript2
-	phone SCHOOLBOY,    JACK1,                 NATIONAL_PARK,             7, JackPhoneScript1,    7, JackPhoneScript2
-	phone POKEFANF,     BEVERLY1,              NATIONAL_PARK,             7, BeverlyPhoneScript1, 7, BeverlyPhoneScript2
-	phone SAILOR,       HUEY1,                 OLIVINE_LIGHTHOUSE_2F,     7, HueyPhoneScript1,    7, HueyPhoneScript2
+	phone TRAINER_NONE, PHONE_00,              N_A,                       0, UnusedPhoneScript,   0, UnusedPhoneScript
+	phone TRAINER_NONE, PHONE_00,              N_A,                       0, UnusedPhoneScript,   0, UnusedPhoneScript
+	phone SAILOR,       HUEY1,                 N_A,                       0, UnusedPhoneScript,   0, UnusedPhoneScript
 	phone TRAINER_NONE, PHONE_00,              N_A,                       0, UnusedPhoneScript,   0, UnusedPhoneScript
 	phone TRAINER_NONE, PHONE_00,              N_A,                       0, UnusedPhoneScript,   0, UnusedPhoneScript
 	phone COOLTRAINERM, GAVEN1,                ROUTE_26,                  7, GavenPhoneScript1,   7, GavenPhoneScript2
@@ -37,11 +37,11 @@ PhoneContacts:
 	phone TRAINER_NONE, PHONE_00,              N_A,                       0, UnusedPhoneScript,   0, UnusedPhoneScript
 	phone TRAINER_NONE, PHONE_00,              N_A,                       0, UnusedPhoneScript,   0, UnusedPhoneScript
 	phone TRAINER_NONE, PHONE_00,              N_A,                       0, UnusedPhoneScript,   0, UnusedPhoneScript
-	phone FISHER,       TULLY1,                ROUTE_42,                  7, TullyPhoneScript1,   7, TullyPhoneScript2
+	phone TRAINER_NONE, PHONE_00,              N_A,                       0, UnusedPhoneScript,   0, UnusedPhoneScript
 	phone POKEMANIAC,   BRENT1,                ROUTE_43,                  7, BrentPhoneScript1,   7, BrentPhoneScript2
 	phone PICNICKER,    TIFFANY1,              ROUTE_43,                  7, TiffanyPhoneScript1, 7, TiffanyPhoneScript2
-	phone BIRD_KEEPER,  VANCE1,                ROUTE_44,                  7, VancePhoneScript1,   7, VancePhoneScript2
-	phone FISHER,       WILTON1,               ROUTE_44,                  7, WiltonPhoneScript1,  7, WiltonPhoneScript2
+	phone TRAINER_NONE, PHONE_00,              N_A,                       0, UnusedPhoneScript,   0, UnusedPhoneScript
+	phone TRAINER_NONE, PHONE_00,              N_A,                       0, UnusedPhoneScript,   0, UnusedPhoneScript
 	phone BLACKBELT_T,  KENJI1,                ROUTE_45,                  7, KenjiPhoneScript1,   7, KenjiPhoneScript2
 	phone HIKER,        PARRY1,                ROUTE_45,                  7, ParryPhoneScript1,   7, ParryPhoneScript2
 	phone PICNICKER,    ERIN1,                 ROUTE_46,                  7, ErinPhoneScript1,    7, ErinPhoneScript2

@@ -146,9 +146,8 @@ ENDM
 	connection west, CianwoodCity, CIANWOOD_CITY, 0, 0, 27
 	connection east, GoldenrodHarbor, GOLDENROD_HARBOR, 3, 0, 20
 
-	map_attributes Route43, ROUTE_43, $5, NORTH | SOUTH
+	map_attributes Route43, ROUTE_43, $5, NORTH
 	connection north, LakeOfRage, LAKE_OF_RAGE, -3, 2, 16
-	connection south, MahoganyTown, MAHOGANY_TOWN, 0, 0, 10
 
 	map_attributes PewterCity, PEWTER_CITY, $f, SOUTH | EAST
 	connection south, Route2North, ROUTE_2_NORTH, 5, 0, 10

@@ -1573,17 +1573,17 @@ RadioChannels:
 
 .EvolutionRadio:
 ; This station airs in the Lake of Rage area when Rocket are still in Mahogany.
-	ld a, [wStatusFlags]
-	bit 4, a
-	jr z, .NoSignal
-	ld a, [wPokegearMapPlayerIconLandmark]
-	cp MAHOGANY_TOWN
-	jr z, .ok
-	cp ROUTE_43
-	jr z, .ok
-	cp LAKE_OF_RAGE
-	jr nz, .NoSignal
-.ok
+;	ld a, [wStatusFlags]
+;	bit 4, a
+;	jr z, .NoSignal
+;	ld a, [wPokegearMapPlayerIconLandmark]
+;	cp MAHOGANY_TOWN
+;	jr z, .ok
+;	cp ROUTE_43
+;	jr z, .ok
+;	cp LAKE_OF_RAGE
+;	jr nz, .NoSignal
+;.ok
 	jp LoadStation_EvolutionRadio
 
 .NoSignal:

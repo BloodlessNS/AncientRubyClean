@@ -18,9 +18,7 @@ TreeMonMaps:
 	treemon_map ROUTE_37, 3
 	treemon_map ROUTE_40, 0
 	treemon_map ROUTE_41, 0
-	treemon_map ROUTE_42, 2
 	treemon_map ROUTE_43, 5
-	treemon_map ROUTE_44, 1
 	treemon_map ROUTE_45, 1
 	treemon_map ROUTE_46, 1
 	treemon_map ROUTE_47, 1
@@ -32,11 +30,9 @@ TreeMonMaps:
 	treemon_map CIANWOOD_CITY, 0
 	treemon_map GOLDENROD_CITY, 0
 	treemon_map ECRUTEAK_CITY, 0
-	treemon_map MAHOGANY_TOWN, 0
 	treemon_map LAKE_OF_RAGE, 5
 	treemon_map BLACKTHORN_CITY, 0
 	treemon_map SILVER_CAVE_OUTSIDE, 1
-	treemon_map ILEX_FOREST, 6
 	treemon_map MURKY_SWAMP, 6
 	treemon_map YELLOW_FOREST, 6
 	treemon_map ROUTE_32_COAST, 4
@@ -51,9 +47,4 @@ RockMonMaps:
 	treemon_map VERMILION_CITY, 7
 	treemon_map RUINS_OF_ALPH_OUTSIDE, 7
 	treemon_map STORMY_BEACH, 7
-	treemon_map DARK_CAVE_VIOLET_ENTRANCE, 7
-	treemon_map UNION_CAVE_B1F_SOUTH, 7
-	treemon_map SLOWPOKE_WELL_B1F, 7
-	treemon_map BURNED_TOWER_B1F, 7
-	treemon_map GIOVANNIS_CAVE, 7
 	db -1

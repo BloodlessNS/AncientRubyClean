@@ -88,7 +88,6 @@ Route35NationalParkGate_GoBackIn:
 	playsound SFX_ENTER_DOOR
 	special FadeOutPalettes
 	waitsfx
-	warpfacing UP, NATIONAL_PARK_BUG_CONTEST, 12, 47
 	end
 
 OfficerScript_0x6a204:
@@ -126,7 +125,6 @@ Route35NationalParkGate_OkayToProceed:
 	special FadeOutPalettes
 	waitsfx
 	special Special_SelectRandomBugContestContestants
-	warpfacing UP, NATIONAL_PARK_BUG_CONTEST, 12, 47
 	end
 
 Route35NationalParkGate_EnterContest:

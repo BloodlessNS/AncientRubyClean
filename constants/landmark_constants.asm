@@ -24,7 +24,6 @@
 	const ROUTE_33           ; 0e
 	const AZALEA_TOWN        ; 0f
 	const SLOWPOKE_WELL      ; 10
-	const ILEX_FOREST        ; 11
 	const ROUTE_34           ; 12
 	const ROUTE_34_COAST     ; 13
 	const STORMY_BEACH       ; 14
@@ -34,13 +33,10 @@
 	const GOLDENROD_HARBOR   ; 18
 	const MAGNET_TUNNEL      ; 19
 	const ROUTE_35           ; 1a
-	const NATIONAL_PARK      ; 1c
 	const ROUTE_36           ; 1d
 	const ROUTE_37           ; 1e
 	const ECRUTEAK_CITY      ; 1f
 	const BELLCHIME_TRAIL    ; 20
-	const TIN_TOWER          ; 21
-	const BURNED_TOWER       ; 22
 	const LIGHTHOUSE         ; 26
 	const ROUTE_40           ; 27
 	const BATTLE_TOWER       ; 28
@@ -53,12 +49,9 @@
 	const ROUTE_48           ; 2f
 	const YELLOW_FOREST      ; 30
 	const QUIET_CAVE         ; 31
-	const ROUTE_42           ; 32
 	const MT_MORTAR          ; 33
-	const MAHOGANY_TOWN      ; 34
 	const ROUTE_43           ; 35
 	const LAKE_OF_RAGE       ; 36
-	const ROUTE_44           ; 37
 	const ICE_PATH           ; 38
 	const BLACKTHORN_CITY    ; 39
 	const DRAGONS_DEN        ; 3a
@@ -87,10 +80,8 @@ KANTO_LANDMARK EQU const_value
 	const ROUTE_25           ; 4e
 	const CERULEAN_CAPE      ; 4f
 	const ROUTE_5            ; 50
-	const UNDERGROUND        ; 51
 	const ROUTE_6            ; 52
 	const VERMILION_CITY     ; 53
-	const DIGLETTS_CAVE      ; 54
 	const ROUTE_7            ; 55
 	const ROUTE_8            ; 56
 	const ROUTE_9            ; 57
@@ -127,7 +118,6 @@ KANTO_LANDMARK EQU const_value
 	const ROUTE_21           ; 76
 	const ROUTE_22           ; 77
 	const ROUTE_27           ; 78
-	const TOHJO_FALLS        ; 79
 	const ROUTE_26           ; 7a
 	const POKEMON_LEAGUE     ; 7b
 	const ROUTE_23           ; 7c

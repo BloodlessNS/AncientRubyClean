@@ -7,9 +7,6 @@ LakeOfRage_MapScriptHeader:
 	callback MAPCALLBACK_TILES, LakeOfRageFloodScript
 
 	db 3 ; warp events
-	warp_event  7,  3, LAKE_OF_RAGE_HIDDEN_POWER_HOUSE, 1
-	warp_event 27, 31, LAKE_OF_RAGE_MAGIKARP_HOUSE, 1
-	warp_event 10, 28, HIDDEN_TREE_GROTTO, 1
 
 	db 0 ; coord events
 
@@ -118,7 +115,6 @@ LakeOfRageLanceScript:
 	disappear LAKEOFRAGE_LANCE
 	clearevent EVENT_MAHOGANY_MART_LANCE_AND_DRAGONITE
 	setevent EVENT_DECIDED_TO_HELP_LANCE
-	setmapscene MAHOGANY_MART_1F, $1
 	end
 
 .Refused:
