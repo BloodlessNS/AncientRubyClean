@@ -16,8 +16,6 @@ TreeMonMaps:
 	treemon_map ROUTE_35, 3
 	treemon_map ROUTE_36, 3
 	treemon_map ROUTE_37, 3
-	treemon_map ROUTE_38, 3
-	treemon_map ROUTE_39, 3
 	treemon_map ROUTE_40, 0
 	treemon_map ROUTE_41, 0
 	treemon_map ROUTE_42, 2
@@ -33,7 +31,6 @@ TreeMonMaps:
 	treemon_map AZALEA_TOWN, 2
 	treemon_map CIANWOOD_CITY, 0
 	treemon_map GOLDENROD_CITY, 0
-	treemon_map OLIVINE_CITY, 0
 	treemon_map ECRUTEAK_CITY, 0
 	treemon_map MAHOGANY_TOWN, 0
 	treemon_map LAKE_OF_RAGE, 5
@@ -44,7 +41,6 @@ TreeMonMaps:
 	treemon_map YELLOW_FOREST, 6
 	treemon_map ROUTE_32_COAST, 4
 	treemon_map ROUTE_34_COAST, 3
-	treemon_map ROUTE_35_COAST, 3
 	treemon_map NOISY_FOREST, 3
 	db -1
 

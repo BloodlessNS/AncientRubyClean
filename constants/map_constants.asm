@@ -18,22 +18,7 @@ MAP_NONE   EQU 0
 
 ; map group ids
 	const_def
-	newgroup                                                     ;  1
-
-	map_const OLIVINE_POKECENTER_1F,                       6,  4 ;  1
-	map_const OLIVINE_GYM,                                 5,  8 ;  2
-	map_const OLIVINE_TIMS_HOUSE,                          4,  4 ;  3
-	map_const OLIVINE_PUNISHMENT_SPEECH_HOUSE,             4,  4 ;  5
-	map_const OLIVINE_GOOD_ROD_HOUSE,                      4,  4 ;  6
-	map_const OLIVINE_CAFE,                                5,  4 ;  7
-	map_const OLIVINE_MART,                                6,  4 ;  8
-	map_const ROUTE_38_ECRUTEAK_GATE,                      5,  4 ;  9
-	map_const ROUTE_39_BARN,                               4,  4 ; 10
-	map_const ROUTE_39_FARMHOUSE,                          4,  4 ; 11
-	map_const ROUTE_38,                                   20,  9 ; 12
-	map_const ROUTE_39,                                   10, 20 ; 13
-	map_const OLIVINE_CITY,                               33, 16 ; 14
-	map_const ROUTE_35_COAST,                             26, 14 ; 15
+	newgroup
 
 	newgroup                                                     ;  2
 

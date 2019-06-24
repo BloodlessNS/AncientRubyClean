@@ -1401,11 +1401,9 @@ UnknownScript_0xbd955:
 	farjump UnknownScript_0xa0978
 
 UnknownScript_0xbd959:
-	landmarktotext ROUTE_38, $2
 	farjump UnknownScript_0xa0a78
 
 UnknownScript_0xbd960:
-	landmarktotext ROUTE_38, $2
 	farjump UnknownScript_0xa0acd
 
 DanaPhoneScript2:
@@ -1437,7 +1435,6 @@ UnknownScript_0xbd9ab:
 	setflag ENGINE_DANA_THURSDAY_NIGHT
 
 UnknownScript_0xbd9ae:
-	landmarktotext ROUTE_38, $2
 	setflag ENGINE_DANA
 	farjump UnknownScript_0xa037e
 
@@ -1446,7 +1443,6 @@ UnknownScript_0xbd9b8:
 
 UnknownScript_0xbd9bc:
 	setflag ENGINE_DANA_HAS_THUNDERSTONE
-	landmarktotext ROUTE_38, $2
 	farjump UnknownScript_0xa061e
 
 ; Chad
@@ -1467,7 +1463,6 @@ UnknownScript_0xbd9e5:
 	farjump UnknownScript_0xa0980
 
 UnknownScript_0xbd9e9:
-	landmarktotext ROUTE_38, $2
 	farjump UnknownScript_0xa0a7d
 
 ChadPhoneScript2:
@@ -1491,7 +1486,6 @@ UnknownScript_0xbda20:
 	setflag ENGINE_CHAD_FRIDAY_MORNING
 
 UnknownScript_0xbda23:
-	landmarktotext ROUTE_38, $2
 	setflag ENGINE_CHAD
 	farjump UnknownScript_0xa0376
 
@@ -1522,7 +1516,6 @@ UnknownScript_0xbda63:
 	farjump UnknownScript_0xa05a4
 
 UnknownScript_0xbda67:
-	landmarktotext ROUTE_39, $2
 	farjump UnknownScript_0xa0ad5
 
 DerekPhoneScript2:
@@ -1547,7 +1540,6 @@ UnknownScript_0xbda9e:
 
 UnknownScript_0xbdaa2:
 	setflag ENGINE_DEREK_HAS_NUGGET
-	landmarktotext ROUTE_39, $2
 	farjump UnknownScript_0xa05e6
 
 TullyPhoneScript1:

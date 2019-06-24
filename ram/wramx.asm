@@ -967,7 +967,6 @@ wMountMoon1FTrigger:: ds 1
 wMrPokemonsHouseTrigger:: ds 1
 wMystriStageTrigger:: ds 1
 wNewBarkTownTrigger:: ds 1
-wOlivineCityTrigger:: ds 1
 wOlivinePortTrigger:: ds 1
 wPokecenter2FTrigger:: ds 1
 wPokemonLeagueGateTrigger:: ds 1

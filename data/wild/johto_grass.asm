@@ -1512,60 +1512,6 @@
 	db 16, HOUNDOUR
 	db 16, ARIADOS
 
-	map_id ROUTE_38
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	db 16, RATTATA
-	db 16, RATICATE
-	db 16, MAGNEMITE
-	db 16, PIDGEOTTO
-	db 13, TAUROS
-	db 13, MILTANK
-	db 13, MILTANK
-	; day
-	db 16, RATTATA
-	db 16, RATICATE
-	db 16, MAGNEMITE
-	db 16, PIDGEOTTO
-	db 13, TAUROS
-	db 13, MILTANK
-	db 13, MILTANK
-	; nite
-	db 16, MEOWTH
-	db 16, RATICATE
-	db 16, MAGNEMITE
-	db 16, NOCTOWL
-	db 16, MEOWTH
-	db 16, MURKROW
-	db 16, MURKROW
-
-	map_id ROUTE_39
-	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
-	; morn
-	db 16, RATTATA
-	db 16, RATICATE
-	db 15, ELEKID
-	db 16, PIDGEOTTO
-	db 15, MILTANK
-	db 15, TAUROS
-	db 15, TAUROS
-	; day
-	db 16, RATTATA
-	db 16, RATICATE
-	db 15, ELEKID
-	db 16, PIDGEOTTO
-	db 15, MILTANK
-	db 15, TAUROS
-	db 15, TAUROS
-	; nite
-	db 16, MEOWTH
-	db 16, RATICATE
-	db 15, ELEKID
-	db 16, NOCTOWL
-	db 18, MEOWTH
-	db 18, MURKROW
-	db 18, MURKROW
-
 	map_id ROUTE_42
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn

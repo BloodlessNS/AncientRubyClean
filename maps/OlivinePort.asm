@@ -38,7 +38,7 @@ UnknownScript_0x748b1:
 	appear OLIVINEPORT_SAILOR1
 	setscene $0
 	setevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_1
-	blackoutmod OLIVINE_CITY
+;	blackoutmod OLIVINE_CITY
 	end
 
 SailorScript_0x748c0:

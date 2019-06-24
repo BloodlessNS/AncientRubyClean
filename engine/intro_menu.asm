@@ -234,6 +234,9 @@ endr
 	ld [wCoins + 1], a
 
 	ld [wRegisteredItems], a
+	ld [wRegisteredItems + 1], a
+	ld [wRegisteredItems + 2], a
+	ld [wRegisteredItems + 3], a
 
 	ld [wWhichMomItem], a
 

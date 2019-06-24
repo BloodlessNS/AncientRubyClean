@@ -53,7 +53,6 @@ MapTriggers::
 	scene_var MR_POKEMONS_HOUSE,                      wMrPokemonsHouseTrigger
 	scene_var MYSTRI_STAGE,                           wMystriStageTrigger
 	scene_var NEW_BARK_TOWN,                          wNewBarkTownTrigger
-	scene_var OLIVINE_CITY,                           wOlivineCityTrigger
 	scene_var OLIVINE_PORT,                           wOlivinePortTrigger
 	scene_var POKECENTER_2F,                          wPokecenter2FTrigger
 	scene_var POKEMON_LEAGUE_GATE,                    wPokemonLeagueGateTrigger

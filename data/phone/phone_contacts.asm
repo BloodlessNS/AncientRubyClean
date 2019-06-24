@@ -34,9 +34,9 @@ PhoneContacts:
 	phone BUG_CATCHER,  ARNIE1,                ROUTE_35,                  7, ArniePhoneScript1,   7, ArniePhoneScript2
 	phone SCHOOLBOY,    ALAN1,                 ROUTE_36,                  7, AlanPhoneScript1,    7, AlanPhoneScript2
 	phone TRAINER_NONE, PHONE_00,              N_A,                       0, UnusedPhoneScript,   0, UnusedPhoneScript
-	phone LASS,         DANA1,                 ROUTE_38,                  7, DanaPhoneScript1,    7, DanaPhoneScript2
-	phone SCHOOLBOY,    CHAD1,                 ROUTE_38,                  7, ChadPhoneScript1,    7, ChadPhoneScript2
-	phone POKEFANM,     DEREK1,                ROUTE_39,                  7, DerekPhoneScript1,   7, DerekPhoneScript2
+	phone TRAINER_NONE, PHONE_00,              N_A,                       0, UnusedPhoneScript,   0, UnusedPhoneScript
+	phone TRAINER_NONE, PHONE_00,              N_A,                       0, UnusedPhoneScript,   0, UnusedPhoneScript
+	phone TRAINER_NONE, PHONE_00,              N_A,                       0, UnusedPhoneScript,   0, UnusedPhoneScript
 	phone FISHER,       TULLY1,                ROUTE_42,                  7, TullyPhoneScript1,   7, TullyPhoneScript2
 	phone POKEMANIAC,   BRENT1,                ROUTE_43,                  7, BrentPhoneScript1,   7, BrentPhoneScript2
 	phone PICNICKER,    TIFFANY1,              ROUTE_43,                  7, TiffanyPhoneScript1, 7, TiffanyPhoneScript2

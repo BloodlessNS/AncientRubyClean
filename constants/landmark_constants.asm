@@ -34,7 +34,6 @@
 	const GOLDENROD_HARBOR   ; 18
 	const MAGNET_TUNNEL      ; 19
 	const ROUTE_35           ; 1a
-	const ROUTE_35_COAST     ; 1b
 	const NATIONAL_PARK      ; 1c
 	const ROUTE_36           ; 1d
 	const ROUTE_37           ; 1e
@@ -42,9 +41,6 @@
 	const BELLCHIME_TRAIL    ; 20
 	const TIN_TOWER          ; 21
 	const BURNED_TOWER       ; 22
-	const ROUTE_38           ; 23
-	const ROUTE_39           ; 24
-	const OLIVINE_CITY       ; 25
 	const LIGHTHOUSE         ; 26
 	const ROUTE_40           ; 27
 	const BATTLE_TOWER       ; 28

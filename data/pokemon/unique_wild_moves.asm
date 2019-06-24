@@ -11,7 +11,6 @@ UniqueWildMoves:
 	db STORMY_BEACH, VENOMOTH, 0
 	db MURKY_SWAMP, KOFFING, CRUNCH ; Prism tutor move
 	db MURKY_SWAMP, MISDREAVUS, HEAL_BELL ; HGSS tutor move
-	db ROUTE_35_COAST, 0, 0
 	db NATIONAL_PARK, 0, 0
 	db TIN_TOWER, 0, 0
 	db BURNED_TOWER, 0, 0

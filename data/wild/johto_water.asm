@@ -228,12 +228,6 @@
 	db 15, PSYDUCK
 	db 20, GOLDUCK
 
-	map_id OLIVINE_CITY
-	db 6 percent ; encounter rate
-	db 20, TENTACOOL
-	db 15, TENTACOOL
-	db 20, TENTACRUEL
-
 	map_id ECRUTEAK_CITY
 	db 2 percent ; encounter rate
 	db 20, POLIWAG
@@ -287,12 +281,6 @@
 	db 20, TENTACOOL
 	db 15, STARYU
 	db 20, TENTACRUEL
-
-	map_id ROUTE_35_COAST
-	db 6 percent ; encounter rate
-	db 20, TENTACOOL
-	db 20, TENTACRUEL
-	db 20, CORSOLA
 
 	map_id YELLOW_FOREST
 	db 6 percent ; encounter rate
