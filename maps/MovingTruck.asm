@@ -4,9 +4,19 @@ MovingTruck_MapScriptHeader:
 	scene_script MovingTruckTrigger1
 
 	db 1 ; callbacks
-	callback MAPCALLBACK_NEWMAP, .InitializeRoom
+	callback MAPCALLBACK_NEWMAP, InitializeRoom
+
+	db 2 ; warp events
+	warp_event  5,  1, KRISS_HOUSE_1F, 3
+	warp_event  5,  2, KRISS_HOUSE_1F, 3
+
+	db 0 ; coord events
+
+	db 0 ; bg events
 	
-.InitializeRoom:
+	db 0 ; object events
+	
+InitializeRoom:
 	special ToggleDecorationsVisibility
 	setevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_8
 	checkevent EVENT_INITIALIZED_EVENTS
@@ -36,14 +46,3 @@ TruckMoving:
 	reloadmappart
 	waitsfx
 	end
-
-	db 2 ; warp events
-	warp_event  5, 1, KRISS_HOUSE_1F, 3
-	warp_event  5, 2, KRISS_HOUSE_1F, 3
-
-	db 0 ; coord events
-
-	db 0 ; bg events
-	
-	db 0 ; object events
-

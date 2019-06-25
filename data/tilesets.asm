@@ -715,10 +715,10 @@ INCBIN "gfx/tilesets/moving_truck.2bpp.lz"
 TilesetMovingTruckGFX2 EQU 0
 
 TilesetMovingTruckMeta::
-INCBIN "data/tilesets/moving_truck.bin.lz"
+INCBIN "data/tilesets/moving_truck_metatiles.bin.lz"
 
 TilesetMovingTruckAttr::
-INCBIN "data/tilesets/moving_truck.bin.lz"
+INCBIN "data/tilesets/moving_truck_attributes.bin.lz"
 
 TilesetMovingTruckColl::
 INCLUDE "data/tilesets/moving_truck_collision.asm"
