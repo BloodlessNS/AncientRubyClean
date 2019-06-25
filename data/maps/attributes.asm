@@ -774,3 +774,4 @@ ENDM
 	map_attributes IvysHouse, IVYS_HOUSE, $0, 0
 	map_attributes ValenciaHouse, VALENCIA_HOUSE, $0, 0
 	map_attributes ValenciaPort, VALENCIA_PORT, $0, 0
+	map_attributes MovingTruck, MOVING_TRUCK, $0, 0

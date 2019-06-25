@@ -32,7 +32,7 @@ PhoneContacts:
 	phone PICNICKER,    GINA1,                 ROUTE_34,                  7, GinaPhoneScript1,    7, GinaPhoneScript2
 	phone JUGGLER,      IRWIN1,                ROUTE_35,                  7, IrwinPhoneScript1,   7, IrwinPhoneScript2
 	phone BUG_CATCHER,  ARNIE1,                ROUTE_35,                  7, ArniePhoneScript1,   7, ArniePhoneScript2
-	phone SCHOOLBOY,    ALAN1,                 ROUTE_36,                  7, AlanPhoneScript1,    7, AlanPhoneScript2
+	phone TRAINER_NONE, PHONE_00,              N_A,                       0, UnusedPhoneScript,   0, UnusedPhoneScript
 	phone TRAINER_NONE, PHONE_00,              N_A,                       0, UnusedPhoneScript,   0, UnusedPhoneScript
 	phone TRAINER_NONE, PHONE_00,              N_A,                       0, UnusedPhoneScript,   0, UnusedPhoneScript
 	phone TRAINER_NONE, PHONE_00,              N_A,                       0, UnusedPhoneScript,   0, UnusedPhoneScript
@@ -42,7 +42,7 @@ PhoneContacts:
 	phone PICNICKER,    TIFFANY1,              ROUTE_43,                  7, TiffanyPhoneScript1, 7, TiffanyPhoneScript2
 	phone TRAINER_NONE, PHONE_00,              N_A,                       0, UnusedPhoneScript,   0, UnusedPhoneScript
 	phone TRAINER_NONE, PHONE_00,              N_A,                       0, UnusedPhoneScript,   0, UnusedPhoneScript
-	phone BLACKBELT_T,  KENJI1,                ROUTE_45,                  7, KenjiPhoneScript1,   7, KenjiPhoneScript2
-	phone HIKER,        PARRY1,                ROUTE_45,                  7, ParryPhoneScript1,   7, ParryPhoneScript2
-	phone PICNICKER,    ERIN1,                 ROUTE_46,                  7, ErinPhoneScript1,    7, ErinPhoneScript2
+	phone TRAINER_NONE, PHONE_00,              N_A,                       0, UnusedPhoneScript,   0, UnusedPhoneScript
+	phone TRAINER_NONE, PHONE_00,              N_A,                       0, UnusedPhoneScript,   0, UnusedPhoneScript
+	phone TRAINER_NONE, PHONE_00,              N_A,                       0, UnusedPhoneScript,   0, UnusedPhoneScript
 	phone TRAINER_NONE, PHONECONTACT_BUENA,    GOLDENROD_DEPT_STORE_ROOF, 7, BuenaPhoneScript1,   7, BuenaPhoneScript2

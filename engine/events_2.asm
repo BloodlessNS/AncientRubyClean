@@ -121,8 +121,6 @@ ReturnFromMapSetupScript:: ; b8000
 	ld a, [wMapNumber]
 	cp MAP_ROUTE_35_NATIONAL_PARK_GATE
 	ret z
-	cp MAP_ROUTE_36_NATIONAL_PARK_GATE
-	ret
 ; b8098
 
 

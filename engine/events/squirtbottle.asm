@@ -24,12 +24,8 @@ _Squirtbottle: ; 50730
 ; 0x50753
 
 .CheckCanUseSquirtbottle: ; 50753
-	ld a, [wMapGroup]
-	cp GROUP_ROUTE_36
 	jr nz, .nope
 
-	ld a, [wMapNumber]
-	cp MAP_ROUTE_36
 	jr nz, .nope
 
 	farcall GetFacingObject

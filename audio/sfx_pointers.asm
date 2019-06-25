@@ -213,3 +213,7 @@ SFX:
 ; Polished Crystal adds the following SFX:
 
 	dba Sfx_Puddle
+	
+; AncientRuby exclusive
+
+	dba Sfx_Truck

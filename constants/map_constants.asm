@@ -19,6 +19,7 @@ MAP_NONE   EQU 0
 ; map group ids
 	const_def
 	newgroup                                                     ;  1
+	map_const MOVING_TRUCK,                                3,  2 ;  1
 
 	newgroup                                                     ;  2
 
@@ -26,36 +27,7 @@ MAP_NONE   EQU 0
 
 	newgroup                                                     ;  4
 
-	map_const ECRUTEAK_HOUSE,                             10,  9 ;  1
-	map_const WISE_TRIOS_ROOM,                             4,  4 ;  2
-	map_const ECRUTEAK_POKECENTER_1F,                      6,  4 ;  3
-	map_const ECRUTEAK_LUGIA_SPEECH_HOUSE,                 4,  4 ;  4
-	map_const DANCE_THEATRE,                               6,  7 ;  5
-	map_const ECRUTEAK_MART,                               6,  4 ;  6
-	map_const ECRUTEAK_GYM,                                5,  9 ;  7
-	map_const ECRUTEAK_ITEMFINDER_HOUSE,                   4,  4 ;  8
-	map_const ECRUTEAK_CITY,                              20, 18 ;  9
-	map_const ROUTE_36,                                   32,  9 ; 10
-	map_const ROUTE_36_RUINS_OF_ALPH_GATE,                 5,  4 ; 11
-	map_const ROUTE_36_NATIONAL_PARK_GATE,                 5,  4 ; 12
-	map_const ROUTE_36_VIOLET_GATE,                        5,  4 ; 13
-	map_const ROUTE_37,                                   10, 10 ; 14
-	map_const VALERIES_HOUSE,                              4,  4 ; 15
-	map_const ECRUTEAK_CHERISH_BALL_HOUSE,                 4,  4 ; 16
-	map_const ECRUTEAK_DESTINY_KNOT_HOUSE,                 4,  4 ; 17
-
 	newgroup                                                     ;  5
-
-	map_const BLACKTHORN_GYM_1F,                           5,  9 ;  1
-	map_const BLACKTHORN_GYM_2F,                           5,  9 ;  2
-	map_const BLACKTHORN_DRAGON_SPEECH_HOUSE,              4,  4 ;  3
-	map_const BLACKTHORN_EMYS_HOUSE,                       4,  4 ;  4
-	map_const BLACKTHORN_MART,                             6,  4 ;  5
-	map_const BLACKTHORN_POKECENTER_1F,                    6,  4 ;  6
-	map_const MOVE_DELETERS_HOUSE,                         4,  4 ;  7
-	map_const ROUTE_45,                                   12, 46 ;  8
-	map_const ROUTE_46,                                   10, 18 ;  9
-	map_const BLACKTHORN_CITY,                            20, 19 ; 10
 
 	newgroup                                                     ;  6
 

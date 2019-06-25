@@ -532,7 +532,6 @@ ENDM
 	music_map ROUTE_17, GetCyclingRoadMusic
 	music_map ROUTE_18_WEST, GetCyclingRoadMusic
 	music_map ROUTE_35_NATIONAL_PARK_GATE, GetBugCatchingContestMusic
-	music_map ROUTE_36_NATIONAL_PARK_GATE, GetBugCatchingContestMusic
 	db 0 ; end
 
 CheckSFX:: ; 3dde

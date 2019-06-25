@@ -60,24 +60,6 @@
 	db 20, MANTINE
 	db 20, REMORAID
 
-	map_id ROUTE_43
-	db 2 percent ; encounter rate
-	db 25, MAGIKARP
-	db 20, MAGIKARP
-	db 10, MAGIKARP
-
-	map_id ROUTE_45
-	db 2 percent ; encounter rate
-	db 20, MAGIKARP
-	db 15, MAGIKARP
-	db 5, MAGIKARP
-
-	map_id ROUTE_47
-	db 2 percent ; encounter rate
-	db 20, TENTACOOL
-	db 20, SEEL
-	db 25, STARYU
-
 	map_id CLIFF_EDGE_GATE
 	db 2 percent ; encounter rate
 	db 20, WOOPER
@@ -114,29 +96,11 @@
 	db 15, PSYDUCK
 	db 20, GOLDUCK
 
-	map_id ECRUTEAK_CITY
-	db 2 percent ; encounter rate
-	db 20, POLIWAG
-	db 15, POLIWAG
-	db 20, POLIWHIRL
-
-	map_id ECRUTEAK_SHRINE_OUTSIDE
-	db 2 percent ; encounter rate
-	db 20, POLIWAG
-	db 15, PSYDUCK
-	db 20, POLIWHIRL
-
 	map_id LAKE_OF_RAGE
 	db 6 percent ; encounter rate
 	db 25, MAGIKARP
 	db 20, MAGIKARP
 	db 25, GYARADOS
-
-	map_id BLACKTHORN_CITY
-	db 4 percent ; encounter rate
-	db 15, MAGIKARP
-	db 10, MAGIKARP
-	db 5, MAGIKARP
 
 	map_id SILVER_CAVE_OUTSIDE
 	db 2 percent ; encounter rate

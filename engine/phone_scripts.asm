@@ -1332,11 +1332,9 @@ UnknownScript_0xbd8cb:
 	farjump UnknownScript_0xa0970
 
 UnknownScript_0xbd8cf:
-	landmarktotext ROUTE_36, $2
 	farjump UnknownScript_0xa0a73
 
 UnknownScript_0xbd8d6:
-	landmarktotext ROUTE_36, $2
 	farjump UnknownScript_0xa0ac5
 
 AlanPhoneScript2:
@@ -1366,13 +1364,11 @@ UnknownScript_0xbd919:
 	setflag ENGINE_ALAN_WEDNESDAY_AFTERNOON
 
 UnknownScript_0xbd91c:
-	landmarktotext ROUTE_36, $2
 	setflag ENGINE_ALAN
 	farjump UnknownScript_0xa0376
 
 UnknownScript_0xbd926:
 	setflag ENGINE_ALAN_HAS_FIRE_STONE
-	landmarktotext ROUTE_36, $2
 	farjump UnknownScript_0xa05e6
 
 ; Dana
@@ -1880,7 +1876,6 @@ UnknownScript_0xbdda8:
 	farjump UnknownScript_0xa09b8
 
 UnknownScript_0xbddac:
-	landmarktotext ROUTE_45, $2
 	farjump UnknownScript_0xa0a9b
 
 ParryPhoneScript2:
@@ -1901,7 +1896,6 @@ UnknownScript_0xbddd7:
 	setflag ENGINE_PARRY_FRIDAY_AFTERNOON
 
 UnknownScript_0xbddda:
-	landmarktotext ROUTE_45, $2
 	setflag ENGINE_PARRY
 	farjump UnknownScript_0xa0376
 
@@ -1923,7 +1917,6 @@ UnknownScript_0xbde03:
 	farjump UnknownScript_0xa09c0
 
 UnknownScript_0xbde07:
-	landmarktotext ROUTE_46, $2
 	farjump UnknownScript_0xa0aa0
 
 ErinPhoneScript2:
@@ -1944,7 +1937,6 @@ UnknownScript_0xbde32:
 	setflag ENGINE_ERIN_SATURDAY_NIGHT
 
 UnknownScript_0xbde35:
-	landmarktotext ROUTE_46, $2
 	setflag ENGINE_ERIN
 	farjump UnknownScript_0xa037e
 

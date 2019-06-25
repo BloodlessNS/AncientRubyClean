@@ -140,6 +140,9 @@ VioletOnixTradeHouse_BlockData:
 
 SECTION "Map Blockdata 1", ROMX
 
+MovingTruck_BlockData:
+	INCBIN "maps/MovingTruck.ablk.lz"
+
 CeruleanPoliceStation_BlockData:
 CeruleanBerryPowderHouse_BlockData:
 CeruleanWaterShowSpeechHouse_BlockData:

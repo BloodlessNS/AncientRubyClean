@@ -18,8 +18,6 @@ UniqueWildMoves:
 	db QUIET_CAVE, MUNCHLAX, SELFDESTRUCT ; Pokéwalker move
 	db MT_MORTAR, 0, 0
 	db LAKE_OF_RAGE, MAGIKARP, HYDRO_PUMP ; Pokéwalker move
-	db ICE_PATH, 0, 0
-	db DRAGONS_DEN, 0, 0
 	db DARK_CAVE, 0, 0
 	db SILVER_CAVE, TYRANITAR, DRAGON_DANCE ; event move
 	db VIRIDIAN_FOREST, PIKACHU, DISARM_VOICE ; Sketch-breed move

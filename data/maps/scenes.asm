@@ -6,6 +6,7 @@ scene_var: MACRO
 ENDM
 
 MapTriggers::
+	scene_var MOVING_TRUCK,                           wMovingTruckTrigger
 	scene_var AZALEA_TOWN,                            wAzaleaTownTrigger
 	scene_var BATTLE_TOWER_1F,                        wBattleTower1FTrigger
 	scene_var BATTLE_TOWER_BATTLE_ROOM,               wBattleTowerBattleRoomTrigger
@@ -22,9 +23,6 @@ MapTriggers::
 	scene_var CINNABAR_LAB,                           wCinnabarLabTrigger
 	scene_var COLOSSEUM,                              wColosseumTrigger
 	scene_var DAYCARE,                                wDayCareTrigger
-	scene_var ECRUTEAK_GYM,                           wEcruteakGymTrigger
-	scene_var ECRUTEAK_HOUSE,                         wEcruteakHouseTrigger
-	scene_var ECRUTEAK_POKECENTER_1F,                 wEcruteakPokecenter1FTrigger
 	scene_var ELMS_LAB,                               wElmsLabTrigger
 	scene_var FARAWAY_ISLAND,                         wFarawayIslandTrigger
 	scene_var FAST_SHIP_1F,                           wFastShip1FTrigger
@@ -59,8 +57,6 @@ MapTriggers::
 	scene_var ROUTE_34,                               wRoute34Trigger
 	scene_var ROUTE_34_ILEX_FOREST_GATE,              wAlways0Trigger
 	scene_var ROUTE_35_NATIONAL_PARK_GATE,            wRoute35NationalParkGateTrigger
-	scene_var ROUTE_36,                               wRoute36Trigger
-	scene_var ROUTE_36_NATIONAL_PARK_GATE,            wRoute36NationalParkGateTrigger
 	scene_var ROUTE_43_GATE,                          wRoute43GateTrigger
 	scene_var ROUTE_47,                               wRoute47Trigger
 	scene_var ROUTE_48,                               wRoute48Trigger
@@ -82,6 +78,5 @@ MapTriggers::
 	scene_var VERMILION_PORT,                         wVermilionPortTrigger
 	scene_var VIOLET_GYM,                             wVioletGymTrigger
 	scene_var WILLS_ROOM,                             wWillsRoomTrigger
-	scene_var WISE_TRIOS_ROOM,                        wWiseTriosRoomTrigger
 	scene_var YELLOW_FOREST,                          wYellowForestTrigger
 	db -1

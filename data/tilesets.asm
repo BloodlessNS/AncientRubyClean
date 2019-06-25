@@ -707,6 +707,23 @@ TilesetPokemonMansionColl::
 INCLUDE "data/tilesets/pokemon_mansion_collision.asm"
 
 
+SECTION "Tileset Data - moving_truck", ROMX
+
+TilesetMovingTruckGFX::
+INCBIN "gfx/tilesets/moving_truck.2bpp.lz"
+
+TilesetMovingTruckGFX2 EQU 0
+
+TilesetMovingTruckMeta::
+INCBIN "data/tilesets/moving_truck.bin.lz"
+
+TilesetMovingTruckAttr::
+INCBIN "data/tilesets/moving_truck.bin.lz"
+
+TilesetMovingTruckColl::
+INCLUDE "data/tilesets/moving_truck_collision.asm"
+
+
 SECTION "Tileset Headers", ROMX
 
 tileset: macro
@@ -759,3 +776,4 @@ Tilesets::
 	tileset TilesetRuins
 	tileset TilesetAlph
 	tileset TilesetPokemonMansion
+	tileset TilesetMovingTruck

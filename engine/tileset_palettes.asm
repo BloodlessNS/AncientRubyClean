@@ -402,11 +402,6 @@ LoadSpecialMapPalette: ; 494ac
 	cp MAP_VIOLET_CITY
 	jp z, .load_eight_time_of_day_bg_palettes
 .not_violet_city
-	ld a, [wMapGroup]
-	cp GROUP_ECRUTEAK_CITY
-	jr nz, .not_ecruteak_city
-	ld a, [wMapNumber]
-	cp MAP_ECRUTEAK_CITY
 	jp z, .load_eight_time_of_day_bg_palettes
 .not_ecruteak_city
 	ld hl, BellchimeTrailPalette

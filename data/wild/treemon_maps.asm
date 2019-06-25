@@ -14,24 +14,15 @@ TreeMonMaps:
 	treemon_map ROUTE_33, 2
 	treemon_map ROUTE_34, 3
 	treemon_map ROUTE_35, 3
-	treemon_map ROUTE_36, 3
-	treemon_map ROUTE_37, 3
 	treemon_map ROUTE_40, 0
 	treemon_map ROUTE_41, 0
-	treemon_map ROUTE_43, 5
-	treemon_map ROUTE_45, 1
-	treemon_map ROUTE_46, 1
-	treemon_map ROUTE_47, 1
-	treemon_map ROUTE_48, 1
 	treemon_map NEW_BARK_TOWN, 0
 	treemon_map CHERRYGROVE_CITY, 0
 	treemon_map VIOLET_CITY, 0
 	treemon_map AZALEA_TOWN, 2
 	treemon_map CIANWOOD_CITY, 0
 	treemon_map GOLDENROD_CITY, 0
-	treemon_map ECRUTEAK_CITY, 0
 	treemon_map LAKE_OF_RAGE, 5
-	treemon_map BLACKTHORN_CITY, 0
 	treemon_map SILVER_CAVE_OUTSIDE, 1
 	treemon_map MURKY_SWAMP, 6
 	treemon_map YELLOW_FOREST, 6

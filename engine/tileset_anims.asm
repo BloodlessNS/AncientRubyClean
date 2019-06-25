@@ -360,6 +360,7 @@ TilesetPokemonMansionAnim::
 TilesetDecorAnim::
 TilesetMuseumAnim::
 TilesetHotelAnim::
+TilesetMovingTruckAnim::
 	dw NULL,  WaitTileAnimation
 	dw NULL,  WaitTileAnimation
 	dw NULL,  WaitTileAnimation

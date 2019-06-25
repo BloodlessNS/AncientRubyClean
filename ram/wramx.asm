@@ -922,6 +922,7 @@ wFarfetchdPosition:: ds 1
 
 ; map triggers
 wAlways0Trigger:: ds 1
+wMovingTruckTrigger:: ds 1
 wAzaleaTownTrigger:: ds 1
 wBattleTower1FTrigger:: ds 1
 wBattleTowerBattleRoomTrigger:: ds 1
@@ -938,9 +939,6 @@ wCianwoodCityTrigger:: ds 1
 wCinnabarLabTrigger:: ds 1
 wColosseumTrigger:: ds 1
 wDayCareTrigger:: ds 1
-wEcruteakGymTrigger:: ds 1
-wEcruteakHouseTrigger:: ds 1
-wEcruteakPokecenter1FTrigger:: ds 1
 wElmsLabTrigger:: ds 1
 wFarawayIslandTrigger:: ds 1
 wFastShip1FTrigger:: ds 1
@@ -968,8 +966,6 @@ wRoute29Trigger:: ds 1
 wRoute32Trigger:: ds 1
 wRoute34Trigger:: ds 1
 wRoute35NationalParkGateTrigger:: ds 1
-wRoute36NationalParkGateTrigger:: ds 1
-wRoute36Trigger:: ds 1
 wRoute43GateTrigger:: ds 1
 wRoute47Trigger:: ds 1
 wRoute48Trigger:: ds 1
@@ -989,7 +985,6 @@ wVermilionCityTrigger:: ds 1
 wVermilionPortTrigger:: ds 1
 wVioletGymTrigger:: ds 1
 wWillsRoomTrigger:: ds 1
-wWiseTriosRoomTrigger:: ds 1
 wYellowForestTrigger:: ds 1
 
 ; fight counts

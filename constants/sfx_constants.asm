@@ -210,3 +210,6 @@
 	const SFX_TWINKLE                     ; ce
 
 	const SFX_PUDDLE                      ; cf
+; AncientRuby exclusive
+
+	const SFX_TRUCK                       ; d0

@@ -33,9 +33,6 @@
 	const GOLDENROD_HARBOR   ; 18
 	const MAGNET_TUNNEL      ; 19
 	const ROUTE_35           ; 1a
-	const ROUTE_36           ; 1d
-	const ROUTE_37           ; 1e
-	const ECRUTEAK_CITY      ; 1f
 	const BELLCHIME_TRAIL    ; 20
 	const LIGHTHOUSE         ; 26
 	const ROUTE_40           ; 27
@@ -53,11 +50,7 @@
 	const ROUTE_43           ; 35
 	const LAKE_OF_RAGE       ; 36
 	const ICE_PATH           ; 38
-	const BLACKTHORN_CITY    ; 39
-	const DRAGONS_DEN        ; 3a
-	const ROUTE_45           ; 3b
 	const DARK_CAVE          ; 3c
-	const ROUTE_46           ; 3d
 	const SILVER_CAVE        ; 3e
 	const FAST_SHIP          ; 3f
 	const SINJOH_RUINS       ; 40
